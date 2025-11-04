@@ -8,19 +8,19 @@
 		<section
 				class="<?php wm_block_classes( 'wt-form' ); ?> wt-form-<?php echo $type; ?>" <?php wm_block_styles(); ?>>
 			<?php wm_container_open(); ?>
-			
+
 			<div class="wt-form-wrap">
-				
+
 				<div class="wt-form-content">
 					<?php if( get_sub_field( 'title', $obj ) ) { ?>
-						<div class="wt-form-title"><?php the_sub_field( 'title', $obj ); ?></div>
+						<div class="wt-form-title"><?= do_shortcode(get_sub_field( 'title', $obj )); ?></div>
 					<?php } ?>
-					
+
 					<?php if( get_sub_field( 'desc', $obj ) ) { ?>
 						<div class="wt-form-description"><?php the_sub_field( 'desc', $obj ); ?></div>
 					<?php } ?>
 				</div>
-				
+
 				<div class="wt-form-fields">
 					<?php echo wpcf7_contact_form_tag_func( array( 'id' => $form ), null, 'contact-form-7' ); ?>
 					<div class="wt-privacy">
@@ -28,11 +28,11 @@
 							согласие на обработку персональных данных</a>
 					</div>
 				</div>
-			
+
 			</div>
-			
+
 			<?php get_template_part( 'blocks/parts/link' ); ?>
-			
+
 			<?php wm_container_close(); ?>
 		</section>
 		<?php

@@ -6,24 +6,24 @@
 		?>
 		<section class="<?php wm_block_classes( 'wt-map' ); ?>">
 			<?php wm_container_open(); ?>
-			
+
 			<div class="wt-map-wrap"><?php echo $code; ?></div>
-			
+
 			<?php if( get_sub_field( 'title', $obj ) || get_sub_field( 'desc', $obj ) ||
 				get_sub_field( 'contacts-enable', $obj ) ) { ?>
 				<div class="wt-map-contacts">
-					
+
 					<?php if( get_sub_field( 'title', $obj ) ) { ?>
-						<h3 class="wt-map-title"><?php the_sub_field( 'title', $obj ); ?></h3>
+						<h3 class="wt-map-title"><?= do_shortcode(get_sub_field( 'title', $obj )); ?></h3>
 					<?php } ?>
-					
+
 					<?php if( get_sub_field( 'desc', $obj ) ) { ?>
 						<div class="wt-map-description"><?php the_sub_field( 'desc', $obj ); ?></div>
 					<?php } ?>
-					
+
 					<?php if( get_sub_field( 'contacts-enable', $obj ) ) { ?>
 						<div class="wt-map-fields">
-							
+
 							<?php
 								$field = wt_options( 'phone' );
 								if( $field && isset( $field[ 'href' ] ) && isset( $field[ 'target' ] ) &&
@@ -41,7 +41,7 @@
 									<?php
 								}
 							?>
-							
+
 							<?php
 								$field = wt_options( 'email' );
 								if( $field && isset( $field[ 'href' ] ) && isset( $field[ 'target' ] ) &&
@@ -59,7 +59,7 @@
 									<?php
 								}
 							?>
-							
+
 							<?php
 								$field = wt_options( 'address' );
 								if( $field ) {
@@ -71,7 +71,7 @@
 									<?php
 								}
 							?>
-							
+
 							<?php
 								$field = wt_options( 'worktime' );
 								if( $field ) {
@@ -83,7 +83,7 @@
 									<?php
 								}
 							?>
-							
+
 							<?php
 								$field = wt_options( 'distance' );
 								if( $field ) {
@@ -95,13 +95,13 @@
 									<?php
 								}
 							?>
-						
+
 						</div>
 					<?php } ?>
-				
+
 				</div>
 			<?php } ?>
-			
+
 			<?php wm_container_close(); ?>
 		</section>
 		<?php

@@ -10,7 +10,7 @@
 	<?php wm_container_open(); ?>
 
 	<?php if( get_sub_field( 'title', $obj ) || is_super_admin() ) { ?>
-		<h2 class="wt-triggers-title"><?php the_sub_field( 'title', $obj ); ?></h2>
+		<h2 class="wt-triggers-title"><?= do_shortcode(get_sub_field('title')); ?></h2>
 	<?php } ?>
 
 	<?php if( get_sub_field( 'desc', $obj ) ) { ?>
@@ -26,7 +26,7 @@
 
 	<?php get_template_part( 'blocks/parts/action' ); ?>
 
-	
+
 
 	<?php wm_container_close(); ?>
 </section>

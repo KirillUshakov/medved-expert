@@ -8,7 +8,10 @@
 				<?php wt_breadcrumbs(); ?>
 			</div>
 			<div class="wt-page-title">
-				<h1><?php the_archive_title(); ?><?php echo Declension(get_blog_details( array( 'blog_id' => $blog_id ) )->blogname); ?></h1>
+				<h1>
+					<?php the_archive_title(); ?>
+					<?php add_city_postfix() ?>
+				</h1>
 			</div>
 		</div>
 	</div>

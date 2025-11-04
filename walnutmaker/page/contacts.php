@@ -7,21 +7,24 @@
 				<?php wt_breadcrumbs(); ?>
 			</div>
 			<div class="wt-page-title test4">
-				<h1><?php the_title(); ?><?php echo Declension(get_blog_details( array( 'blog_id' => $blog_id ) )->blogname); ?></h1>
+				<h1>
+					<?php the_title(); ?>
+					<?php add_city_postfix() ?>
+				</h1>
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="container clearfix">
-		
+
 		<div class="wt-contacts">
 			<?php the_post(); ?>
-			
+
 			<div class="page-content">
 				<?php the_content(); ?>
-				
+
 				<div class="wt-page-row" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-					
+
 					<?php if( get_field( 'zip' ) || get_field( 'city' ) || get_field( 'street' ) ||
 						get_field( 'desc' ) ) { ?>
 						<div class="wt-page-col col-md-4">
@@ -48,7 +51,7 @@
 							</ul>
 						</div>
 					<?php } ?>
-					
+
 					<?php $phone = wt_options( 'phone' ); ?>
 					<?php $phone_add = wt_options( 'phone_add' ); ?>
 					<?php if( $phone || $phone_add ) { ?>
@@ -73,7 +76,7 @@
 							</ul>
 						</div>
 					<?php } ?>
-					
+
 					<?php $email = wt_options( 'email' ); ?>
 					<?php if( $email ) { ?>
 						<div class="wt-page-col col-md-4">
@@ -86,12 +89,12 @@
 							</ul>
 						</div>
 					<?php } ?>
-				
+
 				</div>
 			</div>
 			<?php wm_content_blocks(); ?>
 		</div>
-	
+
 	</div>
 
 <?php get_footer(); ?>

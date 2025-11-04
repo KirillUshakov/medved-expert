@@ -9,15 +9,15 @@
 	if( $random_posts->have_posts() ) {
 		?>
 		<aside class="wt-sidebar-block <?php wm_block_classes( 'wt-sidebar-testimonial' ); ?>">
-			
+
 			<?php if( get_sub_field( 'title', $obj ) ) { ?>
-				<h2 class="wt-sidebar-title"><?php the_sub_field( 'title', $obj ); ?></h2>
+				<h2 class="wt-sidebar-title"><?= do_shortcode(get_sub_field( 'title', $obj )); ?></h2>
 			<?php } ?>
-			
+
 			<?php if( get_sub_field( 'desc', $obj ) ) { ?>
 				<div class="wt-sidebar-description"><?php the_sub_field( 'desc', $obj ); ?></div>
 			<?php } ?>
-			
+
 			<?php
 				while( $random_posts->have_posts() ) {
 					$random_posts->the_post();
@@ -40,9 +40,9 @@
 					<?php
 				}
 			?>
-			
+
 			<?php get_template_part( 'blocks/parts/link' ); ?>
-		
+
 		</aside>
 		<?php
 	}
