@@ -22,14 +22,14 @@ function get_city_name () {
 }
 
 function the_city_name() {
-  echo get_city_field();
+  echo get_city_name();
 }
 
 function add_city_postfix ($echo = true) {
-  $res = Declension(get_city_field());
+  $res = Declension(get_city_name());
 
   if ($echo) {
-    echo $res;
+    echo ' ' . $res;
     return;
   }
 

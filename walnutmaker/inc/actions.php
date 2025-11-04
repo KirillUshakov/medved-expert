@@ -66,7 +66,7 @@
 			array( 'maker-base.js', 'google-maps', 'maker-cookie.js' ), '1.1.4', true );
 		wp_localize_script( 'maker-custom.js', 'dataCities', array(
 			'cities' => get_cities(),
-			'current' => array( 'name' => get_city_field(), 'url' => site_url() ),
+			'current' => array( 'name' => get_city_name(), 'url' => site_url() ),
 		) );
 		wp_enqueue_script( 'maker-custom.js' );
 	}
@@ -79,4 +79,8 @@ add_action('template_redirect', function() {
 	if ( !is_main_site() ) {
 		wp_die( 'Страница не найдена', '404 Not Found', array( 'response' => 404 ) );
 	}
+});
+
+add_filter('pre_get_document_title', function() {
+	return get_the_title() . ' ' . add_city_postfix(false);
 });
