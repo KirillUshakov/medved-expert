@@ -1131,13 +1131,15 @@ body .wt-modal-city-change {
     @media (min-width: 992px) {
       body .wt-modal-city-change .wt-modal-cities {
         padding: 30px 30px 5px; } }
-    body .wt-modal-city-change .wt-modal-cities a {
+    body .wt-modal-city-change .wt-modal-cities a,
+    body .wt-modal-city-change .wt-modal-cities button {
       font-size: 18px;
       color: #252525;
       font-weight: 500;
       line-height: 1.25;
       border-bottom: 2px dotted; }
-    body .wt-modal-city-change .wt-modal-cities a:hover {
+    body .wt-modal-city-change .wt-modal-cities a:hover,
+    body .wt-modal-city-change .wt-modal-cities button:hover {
       color: #f2c810;
       border-color: #f2c810; }
     body .wt-modal-city-change .wt-modal-cities .wt-modal-city-current-name {

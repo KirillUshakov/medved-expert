@@ -18,6 +18,7 @@
                 navigator.geolocation.getCurrentPosition(successFunction, errorFunction);
             }
 
+            // @TODO Is needed function ?
             function successFunction(position) {
                 var lat = position.coords.latitude;
                 var lng = position.coords.longitude;
@@ -148,4 +149,14 @@
 
     });
 
+    // Change city
+    $('[data-city-change]').on('click', (e, el) => {
+        const btn = e.target.closest('[data-city-change]');
+        const cityId = btn.dataset.cityId;
+
+        e.preventDefault();
+
+        document.cookie = `city_id=${ cityId }; path=/; max-age=31556926`;
+        window.location.reload();
+    })
 })(jQuery);

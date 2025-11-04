@@ -66,7 +66,7 @@
 			array( 'maker-base.js', 'google-maps', 'maker-cookie.js' ), '1.1.4', true );
 		wp_localize_script( 'maker-custom.js', 'dataCities', array(
 			'cities' => get_cities(),
-			'current' => array( 'name' => get_bloginfo( 'name' ), 'url' => site_url() ),
+			'current' => array( 'name' => get_city_field(), 'url' => site_url() ),
 		) );
 		wp_enqueue_script( 'maker-custom.js' );
 	}

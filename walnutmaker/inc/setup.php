@@ -1,26 +1,56 @@
 <?php
+	function Declension($name) {
+		$city = array('Москва', 'Коломна', 'Балашиха', 'Химки', 'Королёв', 'Красногорск', 'Люберцы', 'Мытищи', 'Одинцово',
+  					  'Реутов', 'Видное', 'Зеленоград', 'Апрелевка', 'Долгопрудный', 'Домодедово', 'Жуковский', 'Ивантеевка',
+					  'Кубинка', 'Лобня', 'Московский', 'Наро-Фоминск', 'Нахабино', 'Подольск', 'Пушкино', 'Раменское', 'Сергиев Посад',
+					  'Солнечногорск', 'Троицк', 'Фрязино', 'Щёлково', 'Волоколамск', 'Голицыно', 'Дедовск', 'Звенигород', 'Истра', 'Лосино-Петровский',
+					  'Митино', 'Старая Купавна', 'Щербинка', 'Бронницы', 'Воскресенск', 'Дмитров', 'Дубна', 'Кашира',
+					  'Клин', 'Коломна', 'Красноармейск', 'Лыткарино', 'Можайск', 'Монино', 'Ногинск', 'Павловский Посад', 'Руза', 'Солнцево',
+					  'Чехов', 'Электрогорск', 'Электросталь', 'Бутово', 'Котельники', 'Октябрьский', 'Сходня', 'Хотьково');
+		$city_new = array('в Москве и МО', ' в Коломне', ' в Балашихе', ' в Химках', ' в Королёве', ' в Красногорске', ' в Люберцах', ' в Мытищах', ' в Одинцово',
+  					  ' в Реутове', ' в Видном', ' в Зеленограде', ' в Апрелевке', ' в Долгопрудном', ' в Домодедово', ' в Жуковском', ' в Ивантеевке',
+					  ' в Кубинке', ' в Лобне', ' в Московском', ' в Наро-Фоминске', ' в Нахабино', ' в Подольске', ' в Пушкино', ' в Раменском', ' в Сергиев Посаде',
+					  ' в Солнечногорске', ' в Троицке', ' в Фрязино', ' в Щёлково', ' в Волоколамске', ' в Голицыно', ' в Дедовске', ' в Звенигороде', ' в Истре',
+					  ' в Лосино-Петровском', ' в Митино', ' в Старой Купавне', ' в Щербинке', ' в Бронницах', ' в Воскресенске', ' в Дмитрове',
+                      ' в Дубне', ' в Кашире', ' в Клине', ' в Коломне', ' в Красноармейске', ' в Лыткарино', ' в Можайске', ' в Монино', ' в Ногинске',
+                      ' в Павловском Посаде', ' в Рузе', ' в Солнцево', ' в Чехове', ' в Электрогорске', ' в Электростале', ' в Бутово',
+                      ' в Котельниках', ' в Октябрьском', ' в Сходне', ' в Хотьково');
+		$find_position = array_search($name, $city);
+
+		return $city_new[$find_position];
+	}
+
 	function get_cities() {
 		$cities = array();
+
 		foreach( get_sites() as $site ) {
 			switch_to_blog( $site->blog_id );
 			global $wp;
-			$cities[ get_bloginfo( 'name' ) ] = array( 'name' => get_bloginfo( 'name' ), 
-                                                       'url'  => home_url( $wp->request ) . '/',
-                                                       'url2' =>home_url( ) . '/'
-                                                     );
+
+			$city_fields = [
+				'name' => get_bloginfo( 'name' ),
+				'url'  => home_url( $wp->request ) . '/',
+				'url2' =>home_url( ) . '/',
+				'id' => $site->blog_id,
+			];
+
+			$cities[ get_bloginfo( 'name' ) ] = $city_fields;
 			restore_current_blog();
 		}
+
 		$moscow = array_shift( $cities );
 		ksort( $cities );
 		array_unshift( $cities, $moscow );
-		
+
 		return $cities;
 	}
-	
+
+	get_template_part( 'inc/global-functions' );
 	get_template_part( 'inc/actions' );
 	get_template_part( 'inc/filters' );
+	get_template_part( 'inc/shortcodes' );
 	get_template_part( 'inc/wm_blocks' );
-	
+
 	/**
 	 * Generate blocks for header location
 	 *
@@ -29,7 +59,7 @@
 	function wm_header_blocks() {
 		return WM_Blocks::instance()->header_blocks();
 	}
-	
+
 	/**
 	 * Generate blocks for footer location
 	 *
@@ -38,7 +68,7 @@
 	function wm_footer_blocks() {
 		return WM_Blocks::instance()->footer_blocks();
 	}
-	
+
 	/**
 	 * Generate blocks for content location
 	 *
@@ -47,7 +77,7 @@
 	function wm_content_blocks() {
 		return WM_Blocks::instance()->content_blocks();
 	}
-	
+
 	/**
 	 * Generate blocks for sidebar location
 	 *
@@ -56,7 +86,7 @@
 	function wm_sidebar_blocks() {
 		return WM_Blocks::instance()->sidebar_blocks();
 	}
-	
+
 	/**
 	 * Return have blocks in location
 	 *
@@ -67,7 +97,7 @@
 	function wm_have_blocks( $location = 'content' ) {
 		return WM_Blocks::instance()->have_blocks( $location );
 	}
-	
+
 	/**
 	 * Return have blocks in sidebar
 	 *
@@ -76,7 +106,7 @@
 	function wm_have_sidebar_blocks() {
 		return WM_Blocks::instance()->have_sidebar_blocks();
 	}
-	
+
 	/**
 	 * @param bool $echo
 	 *
@@ -87,7 +117,7 @@
 	function wm_container_open( $echo = true ) {
 		return WM_Blocks::instance()->container_open( $echo );
 	}
-	
+
 	/**
 	 * @param bool $echo
 	 *
@@ -98,7 +128,7 @@
 	function wm_container_close( $echo = true ) {
 		return WM_Blocks::instance()->container_close( $echo );
 	}
-	
+
 	/**
 	 * @param int $cols
 	 * @param bool $echo
@@ -112,10 +142,10 @@
 		if( $echo ) {
 			echo $cols;
 		}
-		
+
 		return $cols;
 	}
-	
+
 	/**
 	 * @param string $class
 	 * @param null|object $obj
@@ -141,10 +171,10 @@
 		if( $echo ) {
 			echo $classes;
 		}
-		
+
 		return $classes;
 	}
-	
+
 	/**
 	 * @param null|object $obj
 	 * @param bool $echo
@@ -180,10 +210,10 @@
 		if( $echo ) {
 			echo $style;
 		}
-		
+
 		return $style;
 	}
-	
+
 	/**
 	 * @param null|object $obj
 	 * @param bool $echo
@@ -198,10 +228,10 @@
 		if( $echo ) {
 			echo 'content-' . $alignment;
 		}
-		
+
 		return $alignment;
 	}
-	
+
 	/**
 	 * @param null|object $obj
 	 * @param bool $echo
@@ -216,10 +246,10 @@
 		if( $echo ) {
 			echo 'wt-slider-banners-content-' . $alignment;
 		}
-		
+
 		return $alignment;
 	}
-	
+
 	/**
 	 * @param null|object $obj
 	 * @param bool $echo
@@ -234,10 +264,10 @@
 		if( $echo ) {
 			echo $name;
 		}
-		
+
 		return $name;
 	}
-	
+
 	/**
 	 * @param $name
 	 * @param null|object $obj
@@ -249,10 +279,10 @@
 	function wm_usability( $name, $obj = null ) {
 		$obj = $obj ? $obj : get_queried_object();
 		$usability = get_field( 'posts-usability', $obj );
-		
+
 		return $usability ? in_array( $name, get_field( 'posts-usability', $obj ) ) : true;
 	}
-	
+
 	/**
 	 * @param null|object $obj
 	 * @param bool $echo
@@ -267,10 +297,10 @@
 		if( $echo ) {
 			echo 'content-' . $alignment;
 		}
-		
+
 		return $alignment;
 	}
-	
+
 	/**
 	 * @param null|object $obj
 	 * @param bool $echo
@@ -285,10 +315,10 @@
 		if( $echo ) {
 			echo 'content-' . $alignment;
 		}
-		
+
 		return $alignment;
 	}
-	
+
 	/**
 	 * Return post_id parameter of ACF options page for the_field and get_field functions
 	 *
@@ -297,4 +327,3 @@
 	function wm_field_option() {
 		return function_exists( 'pll_current_language' ) ? pll_current_language( 'slug' ) : 'option';
 	}
-	

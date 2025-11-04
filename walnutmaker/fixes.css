@@ -163,3 +163,19 @@
   height: auto;
   transform: unset;
 }
+
+body .wt-modal-city-change .wt-modal-cities button {
+	font-size: 18px;
+	color: #252525;
+	font-weight: 500;
+	line-height: 1.25;
+	border: 0;
+	border-bottom: 2px dotted;
+	background-color: transparent;
+	transition: color .23s, background .23s, border .23s;
+}
+
+body .wt-modal-city-change .wt-modal-cities button:hover {
+	color: #f2c810;
+	border-color: #f2c810;
+}

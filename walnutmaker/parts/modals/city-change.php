@@ -8,11 +8,15 @@
 			?>
 			<?php foreach( get_cities() as $city ) { ?>
 				<li class="wt-modal-col col-sm-4">
-					<a href="<?php echo $city[ 'url2' ]; ?>"
-							onclick="ym(48605087, 'reachGoal', 'CHANGE_CITY'); return true;"
-							class="wt-modal-city-current<?php echo $city[ 'url' ] == $current_url ?
-								' wt-modal-city-current-name' : ''; ?>"
-							data-name="<?php echo $city[ 'name' ]; ?>"><?php echo $city[ 'name' ]; ?></a>
+					<button
+						type="button"
+						data-city-change
+						data-city-id="<?= $city['id'] ?>"
+						onclick="ym(48605087, 'reachGoal', 'CHANGE_CITY'); return true;"
+						class="wt-modal-city-current <?= is_cur_city($city) ? 'wt-modal-city-current-name' : '' ?>"
+					>
+						<?php echo $city[ 'name' ]; ?>
+					</button>
 				</li>
 			<?php } ?>
 		</ul>
