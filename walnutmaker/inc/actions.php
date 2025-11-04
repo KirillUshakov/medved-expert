@@ -74,3 +74,9 @@
 	if(!$bIndexBot) {
 		add_action( 'wp_enqueue_scripts', 'wm_register_scripts' );
 	}
+
+add_action('template_redirect', function() {
+	if ( !is_main_site() ) {
+		wp_die( 'Страница не найдена', '404 Not Found', array( 'response' => 404 ) );
+	}
+});
