@@ -84,3 +84,11 @@ add_action('template_redirect', function() {
 add_filter('pre_get_document_title', function() {
 	return get_the_title() . ' ' . add_city_postfix(false);
 });
+
+add_filter('aioseop_title', function($title) {
+	return do_shortcode($title);
+});
+
+add_filter('aioseop_description', function($description) {
+	return do_shortcode($description);
+});
