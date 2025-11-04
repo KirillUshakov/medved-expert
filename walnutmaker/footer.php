@@ -414,7 +414,7 @@
         </div>
     </section>
 
-    <? //var_dump($_SERVER['SERVER_NAME']);?>
+    <?php //var_dump($_SERVER['SERVER_NAME']);?>
     <?php if( is_front_page() && $_SERVER['SERVER_NAME'] == 'medved-expert.ru') { ?>
 
     <section class="wt-form wt-form-color-blue wt-form-full short-form" style="background-image: url(https://medved-expert.ru/wp-content/uploads/2018/04/shutterstock_479993083-min.jpg);">
@@ -473,7 +473,7 @@
         </div>
     </section>
 
-	<? } else { ?>
+	<?php } else { ?>
 
     <section class="wt-form wt-form-color-blue wt-form-full big-form" style="background-image:url(https://medved-expert.ru/wp-content/uploads/2018/04/shutterstock_479993083-min.jpg);">
         <div class="container">
@@ -534,7 +534,7 @@
         </div>
     </section>
 
-    <? } ?>
+    <?php } ?>
 
 	<section class="wt-custom-content">
         <div class="container">
@@ -1648,9 +1648,9 @@
 	</div>
 </section>
 </noindex>
-<? } ?>
+<?php } ?>
 
-<? if( !$bIndexBot ): ?>
+<?php if( !$bIndexBot ): ?>
 	<section class="wt-custom-content">
 		<div class="container">
 			<div class="wt-page-row">
@@ -1663,7 +1663,7 @@
 			</div>
 		</div>
 	</section>
-<? endif; ?>
+<?php endif; ?>
 
 <?php if( $_SERVER['REQUEST_URI'] != '/services/master-po-zamene-zamkov/') { ?>
 <section class="scheme wt-custom-content scheme sal-animate" data-sal="fade" data-sal-delay="100" data-sal-duration="500"
@@ -1759,7 +1759,7 @@
 		</div>
 	</div>
 </section>
-<? } ?>
+<?php } ?>
 
 <section class="law sal-animate" data-sal="fade" data-sal-delay="100" data-sal-duration="500" data-sal-easing="ease-in-out" style="display:none;">
 	<div class="container">
@@ -1958,7 +1958,7 @@
 	</div>
 </section>
 
-<? } ?>
+<?php } ?>
 
 <?php } ?>
 
