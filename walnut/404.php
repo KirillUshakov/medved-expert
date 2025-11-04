@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
-		<title><?php bloginfo( 'name' ); ?><?php wp_title(); ?></title>
+		<title><?php the_city_name() ?> <?php wp_title(); ?></title>
 		<link href='https://fonts.googleapis.com/css?family=Neucha&subset=cyrillic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/404.css">
 	</head>

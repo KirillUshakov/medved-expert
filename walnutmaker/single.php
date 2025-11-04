@@ -9,10 +9,12 @@
 			</div>
 			<div class="wt-page-title">
 				<?php $cats = wp_get_post_categories( get_the_ID(), array( 'fields' => 'names' ) ); ?>
-				<h1 class="wt-page-title test1"><?php
+				<h1 class="wt-page-title test1">
+					<?php
 						the_title();
-						// echo $cats && in_array( 'Услуги', $cats ) ? ' без повреждений' : '';
-					?><?php echo Declension(get_blog_details( array( 'blog_id' => $blog_id ) )->blogname); ?> </h1>
+						add_city_postfix();
+					?>
+				</h1>
 				<?php if( $cats && in_array( 'Услуги', $cats ) ) { ?>
 					<p style="color: #eead0b; font-size: 1.2em; margin-top: 10px;"><strong>Мастер будет у Вас в течение 15 минут</strong></p>
 				<?php } ?>

@@ -1,42 +1,41 @@
 </div>
 
 <footer class="site-footer">
-	
+
 	<?php if( wt_is_desktop() ) { ?>
 		<div class="site-footer-navigation">
 			<div class="container">
-				
+
 				<nav role="navigation"><?php wt_nav_menu( 'footer_menu' ); ?></nav>
 				<div class="scroll-up">
 					<a href="#" class="btn-top"><?php _e( 'Back to top', 'walnut' ); ?></a>
 				</div>
-			
+
 			</div>
 		</div>
 	<?php } ?>
-	
+
 	<div class="site-footer-main">
 		<div class="container">
 			<div class="site-row-table">
-				
+
 				<?php $description = get_bloginfo( 'description', 'display' ); ?>
-				<div class="footer-brand <?php echo ! $description || ! get_bloginfo( 'name',
-					'display' ) ? 'footer-brand-half' : 'footer-brand-full'; ?>">
+				<div class="footer-brand <?php echo ! $description || ! get_city_name() ? 'footer-brand-half' : 'footer-brand-full'; ?>">
 					<a href="<?php echo esc_url( home_url() ); ?>" class="footer-logo" rel="home">
 						<?php echo wt_logo( 'footer_logo' ); ?>
 					</a>
-					<?php if( get_bloginfo( 'name', 'display' ) && $description ) { ?>
+					<?php if( get_city_name() && $description ) { ?>
 						<div class="footer-name">
 							<?php if( is_front_page() ) { ?>
 								<h1 class="footer-name-title">
 									<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-										<?php bloginfo( 'name' ); ?>
+										<?php the_city_name() ?>
 									</a>
 								</h1>
 							<?php } else { ?>
 								<p class="footer-name-title">
 									<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-										<?php bloginfo( 'name' ); ?>
+										<?php the_city_name() ?>
 									</a>
 								</p>
 							<?php } ?>
@@ -46,7 +45,7 @@
 						</div>
 					<?php } ?>
 				</div>
-				
+
 				<?php if( wt_is_desktop() ) { ?>
 					<div class="footer-address hidden-touch">
 						<p class="footer-address-destination"><?php echo wt_options( 'address' ); ?></p>
@@ -54,7 +53,7 @@
 						<p class="footer-address-worktime"><?php echo wt_options( 'worktime' ); ?></p>
 					</div>
 				<?php } ?>
-				
+
 				<?php if( wt_is_not_phone() ) { ?>
 					<div class="footer-contacts hidden-mobile">
 						<?php $phone = wt_options( 'phone' ); ?>
@@ -76,17 +75,17 @@
 						</div>
 					</div>
 				<?php } ?>
-			
+
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="site-footer-bottom">
 		<div class="container">
-			
+
 			<div class="footer-copyright"><?php echo wt_options( 'copyright' ); ?></div>
 			<div class="footer-weblink"><?php echo wt_options( 'weblink' ); ?></div>
-			
+
 		</div>
 	</div>
 

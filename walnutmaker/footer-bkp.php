@@ -1024,7 +1024,7 @@
 							<p class="wt-footer-name-title">
 								<?php
 									echo $_SERVER[ 'REQUEST_URI' ] != '/' ? '<a href="' . esc_url( home_url() ) . '" rel="home">' : '';
-									echo get_field( 'site-name', wm_field_option() ) ? : get_bloginfo( 'name', 'display' );
+									echo get_field( 'site-name', wm_field_option() ) ? : get_city_name();
 									echo $_SERVER[ 'REQUEST_URI' ] != '/' ? '</a>' : '';
 								?>
 							</p>
@@ -1037,7 +1037,7 @@
 						if( $is_cities ) { ?>
 							<div class="wt-footer-cities">
 								<span>Ваш город:</span> <a href="#"
-										class="wt-cities-name city-change-open"><?php bloginfo( 'name' ); ?></a>
+										class="wt-cities-name city-change-open"><?php the_city_name() ?></a>
 							</div>
 						<?php } ?>
 					<?php if( ( $phone && $phone[ 'href' ] ) || ( $email && $email[ 'href' ] ) || $callback ) { ?>

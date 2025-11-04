@@ -220,7 +220,7 @@ add_filter('the_content', 'replace_text_wps',99);
 
 
 function rb_modify_nav($items) {
-	$city = get_bloginfo( 'name', 'display' );
+	$city = get_city_name();
 	if ($city != 'Москва') {
 	    $i = 1;
     	foreach($items as $item){
@@ -366,4 +366,3 @@ function block_blocked_phones($result, $tag) {
 //         $contact_form->add_notice('Проверка reCAPTCHA не пройдена.', 'error');
 //     }
 // }
-

@@ -8,7 +8,7 @@
 		</a>
 		<p class="side-menu-title">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<?php bloginfo( 'name' ); ?>
+				<?php the_city_name() ?>
 			</a>
 		</p>
 	</div>
