@@ -1,0 +1,310 @@
+// Основной подвал
+.wt-footer-main {
+  padding: 40px 0 50px;
+  background-color: #212121;
+  color: #dedede;
+  @include breakpoint(md) {
+    padding: 25px 0;
+  }
+}
+
+.wt-footer-wrap {
+  @include breakpoint(md) {
+    display: table;
+    width: 100%;
+  }
+}
+
+// Логотип и название сайта
+
+.wt-footer-action {
+  text-align: center;
+  a {
+    position: relative;
+    display: inline-block;
+    font-size: 21px;
+    color: #212121;
+    font-weight: 600;
+    padding: 18px 80px 18px 95px;
+    height: 65px;
+    border-radius: 10px;
+    transform: skewX(-10deg);
+    background: rgb(238, 173, 11);
+    background: -moz-linear-gradient(top, rgba(238, 173, 11, 1) 0%, rgba(242, 202, 16, 1) 50%, rgba(238, 173, 11, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(238, 173, 11, 1) 0%, rgba(242, 202, 16, 1) 50%, rgba(238, 173, 11, 1) 100%);
+    background: linear-gradient(to bottom, rgba(238, 173, 11, 1) 0%, rgba(242, 202, 16, 1) 50%, rgba(238, 173, 11, 1) 100%);
+    background-size: auto 200%;
+    background-position: left bottom;
+    &:hover {
+      background-position: left top;
+    }
+    &:active {
+      background-position: left bottom;
+    }
+    @include breakpoint(md) {
+      width: 100%;
+      padding: 18px 40px 18px 75px;
+    }
+  }
+  a:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: 50%;
+    margin-top: -7px;
+    left: 60px;
+    width: 20px;
+    height: 14px;
+    background-image: url(img/svg/top.svg);
+    transform: skewX(10deg);
+    @include breakpoint(md) {
+      left: 40px;
+    }
+  }
+  span {
+    display: block;
+    transform: skewX(10deg);
+  }
+}
+
+.wt-footer-brand {
+  text-align: center;
+  margin-top: 30px;
+  @include breakpoint(md) {
+    display: table-cell;
+    vertical-align: middle;
+    width: 30%;
+  }
+}
+
+.wt-footer-logo {
+  display: block;
+  @include breakpoint(lg) {
+    display: inline-block;
+  }
+  img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 215px;
+    @include breakpoint(sm) {
+      max-width: 270px;
+    }
+    @include breakpoint(md) {
+      width: 180px;
+    }
+  }
+}
+
+.wt-footer-name-title {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 600;
+  margin-top: 5px;
+  @include breakpoint(md) {
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  a {
+    color: inherit;
+  }
+}
+
+.wt-footer-name-description {
+  margin-top: 5px;
+  font-size: 14px;
+  @include breakpoint(md) {
+    max-width: 270px;
+  }
+}
+
+.wt-footer-brand-full {
+  .wt-footer-logo, .wt-footer-name {
+    @include breakpoint(md) {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+  .wt-footer-logo {
+    @include breakpoint(md) {
+      width: 170px;
+      // Width используется для ограничения ширины логотипа в svg. Без него будет неправильное поведение размеров img.
+    }
+  }
+  .wt-footer-name {
+    @include breakpoint(md) {
+      padding-left: 25px;
+      text-align: left;
+    }
+  }
+}
+
+.wt-footer-cities {
+  margin-top: 25px;
+  text-align: center;
+  @include breakpoint(md) {
+    display: table-cell;
+    vertical-align: middle;
+    width: 40%;
+    padding: 0 15px;
+  }
+  span {
+    display: block;
+    font-size: 15px;
+    color: #868686;
+  }
+  a {
+    font-size: 18px;
+    color: inherit;
+    font-weight: 500;
+    line-height: 1.25;
+    border-bottom: 2px dotted;
+  }
+  a:hover {
+    color: $color-font-yellow;
+    border-color: $color-font-yellow;
+  }
+}
+
+// Контактные данные
+
+.wt-footer-contacts {
+  text-align: center;
+  margin-top: 30px;
+  @include breakpoint(md) {
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    width: 30%;
+    text-align: right;
+  }
+}
+
+.wt-footer-contacts-meta {
+  position: relative;
+  display: inline-block;
+  @include breakpoint(md) {
+    padding-left: 70px;
+    &:before {
+      position: absolute;
+      content: '';
+      width: 50px;
+      height: 50px;
+      background-image: url(img/svg/phone-mono.svg);
+      background-size: cover;
+      left: 0;
+      top: 50%;
+      margin-top: -25px;
+    }
+  }
+}
+
+.wt-footer-contacts-phone {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.25;
+  @include breakpoint(lg) {
+    font-size: 24px;
+  }
+  a {
+    color: inherit;
+  }
+  a:hover {
+    color: $color-font-yellow;
+  }
+}
+
+.wt-footer-contacts-email {
+  font-size: 14px;
+  @include breakpoint(lg) {
+    font-size: 18px;
+  }
+  a {
+    color: #868787;
+  }
+  a:hover {
+    color: $color-font-yellow;
+  }
+}
+
+.wt-footer-contacts-social {
+  margin-top: 35px;
+  letter-spacing: -0.36em;
+  @include breakpoint(md) {
+    margin-top: 25px;
+  }
+  li {
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: normal;
+    margin: 0 7.5px;
+    @include breakpoint(md) {
+      margin: 0 0 0 15px;
+    }
+  }
+  a {
+    display: flex;
+    align-items: center;
+  }
+  svg {
+    fill: #dedede;
+    transition: 0.2s ease all;
+  }
+  a:hover svg {
+    fill: $color-font-yellow;
+  }
+}
+
+// Копирайт и студия
+
+.wt-footer-bottom {
+  border-top: 4px solid #3d3d3d;
+  background-color: #212121;
+  padding: 40px 0;
+  text-align: center;
+  color: #868787;
+  font-size: 14px;
+  @include breakpoint(md) {
+    padding: 20px 0;
+  }
+}
+
+.wt-footer-copyright {
+  @include breakpoint(md) {
+    width: 33.3333333%;
+    float: left;
+    text-align: left;
+  }
+}
+
+.wt-footer-policy {
+  @include breakpoint(md) {
+    width: 33.3333333%;
+    float: right;
+  }
+  a {
+    display: block;
+    color: #868787;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: $color-font-yellow;
+  }
+}
+
+.wt-footer-weblink {
+  margin-bottom: 20px;
+  @include breakpoint(md) {
+    margin-bottom: 0;
+    width: 33.3333333%;
+    float: right;
+    text-align: right;
+  }
+  a {
+    color: #868787;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: $color-font-green;
+  }
+}

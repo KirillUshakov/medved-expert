@@ -1,0 +1,1 @@
+<textarea name="code_counter" rows="15"><?php echo isset( $data ) ? stripslashes( $data ) : ''; ?></textarea>

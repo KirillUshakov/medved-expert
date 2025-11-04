@@ -1,0 +1,1534 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: Walnut\n"
+"POT-Creation-Date: 2018-04-10 19:36+0300\n"
+"PO-Revision-Date: 2018-04-10 19:59+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ru_RU\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgctxt "Title of 404 page"
+msgid "Oops!"
+msgstr "Упс!"
+
+#: 404.php:19
+#, php-format
+msgctxt "Text with link on 404 page"
+msgid "It seems, you are lost! Go to the %shome page%s. "
+msgstr "Кажется, вы потерялись! Перейдите на %sглавную страницу%s сайта."
+
+#: archive-wt_case.php:12 archive-wt_case.php:14 archive-wt_case.php:16
+#: archive.php:12 archive.php:14 archive.php:16
+msgid "Archive records for"
+msgstr "Архив записей за"
+
+#: archive-wt_case.php:38 archive-wt_testimonial.php:63 archive.php:38
+#: category.php:25 core/tmpl/page/gallery.php:37
+#: core/tmpl/page/testimonials.php:36 parts/catalog/content-elements.php:16
+#: parts/catalog/content.php:16 search.php:33 wt_catalog.php:31
+#: wt_portfolio.php:26
+msgid "Sorry, no posts matched your criteria."
+msgstr "Извините, записей пока нет."
+
+#: archive-wt_testimonial.php:79 wt_testimonial.php:31
+msgid "Write a review"
+msgstr "Написать отзыв"
+
+#: core/classes/wt_breadcrumbs.php:34
+msgctxt "Text of breadcrumbs link"
+msgid "Home"
+msgstr "Главная"
+
+#: core/classes/wt_breadcrumbs.php:61
+#, php-format
+msgctxt "Search breadcrumb"
+msgid "Search: %s"
+msgstr "Поиск: %s"
+
+#: core/classes/wt_breadcrumbs.php:70
+#, php-format
+msgctxt "Tag breadcrumb"
+msgid "Tag: %s"
+msgstr "Метка: %s"
+
+#: core/classes/wt_catalog.php:62 core/classes/wt_portfolio.php:52
+msgctxt "General name for taxonomy"
+msgid "Sections"
+msgstr "Разделы"
+
+#: core/classes/wt_catalog.php:63 core/classes/wt_portfolio.php:53
+msgctxt "Single name for taxonomy"
+msgid "Section"
+msgstr "Раздел"
+
+#: core/classes/wt_catalog.php:64 core/classes/wt_portfolio.php:54
+msgctxt "Name of menu"
+msgid "Sections"
+msgstr "Разделы"
+
+#: core/classes/wt_catalog.php:65 core/classes/wt_portfolio.php:55
+msgctxt "Text for searching taxonomy"
+msgid "Search Sections"
+msgstr "Поиск по разделам"
+
+#: core/classes/wt_catalog.php:66 core/classes/wt_catalog.php:121
+#: core/classes/wt_portfolio.php:56 core/classes/wt_portfolio.php:111
+msgctxt "All items of taxonomy"
+msgid "All Sections"
+msgstr "Все разделы"
+
+#: core/classes/wt_catalog.php:67 core/classes/wt_portfolio.php:57
+msgctxt "Title for page of editing taxonomy item"
+msgid "Edit Section"
+msgstr "Редактировать раздел"
+
+#: core/classes/wt_catalog.php:68 core/classes/wt_portfolio.php:58
+msgctxt "Text for updating taxonomy item"
+msgid "Update Section"
+msgstr "Обновить раздел"
+
+#: core/classes/wt_catalog.php:69 core/classes/wt_portfolio.php:59
+msgctxt "Text of new taxonomy item"
+msgid "Add New Section"
+msgstr "Добавить новый раздел"
+
+#: core/classes/wt_catalog.php:70 core/classes/wt_portfolio.php:60
+msgctxt "Text for viewing taxonomy item"
+msgid "View Section"
+msgstr "Посмотреть раздел"
+
+#: core/classes/wt_catalog.php:71 core/classes/wt_portfolio.php:61
+msgctxt "Text for creating taxonomy item"
+msgid "New Section"
+msgstr "Новый раздел"
+
+#: core/classes/wt_catalog.php:73 core/classes/wt_portfolio.php:63
+msgctxt "Text of deleting or creating taxonomy item"
+msgid "Add or remove sections"
+msgstr "Добавить или удалить разделы"
+
+#: core/classes/wt_catalog.php:75 core/classes/wt_portfolio.php:65
+msgctxt "Text for most used taxonomy items"
+msgid "Choose from most used sections"
+msgstr "Выберите из наиболее используемых разделов"
+
+#: core/classes/wt_catalog.php:76 core/classes/wt_gallery.php:80
+#: core/classes/wt_portfolio.php:66
+msgctxt "Text for not founding taxonomy items"
+msgid "Not found"
+msgstr "Не найдено"
+
+#: core/classes/wt_catalog.php:89
+msgctxt "General name for post type"
+msgid "Elements"
+msgstr "Элементы"
+
+#: core/classes/wt_catalog.php:90
+msgctxt "Single name for post type"
+msgid "Element"
+msgstr "Элемент"
+
+#: core/classes/wt_catalog.php:91 core/classes/wt_portfolio.php:81
+msgctxt "Text for button add a case"
+msgid "Add New"
+msgstr "Добавить новый"
+
+#: core/classes/wt_catalog.php:92
+msgctxt "Title for page of adding post"
+msgid "Add New Element"
+msgstr "Добавить новый элемент"
+
+#: core/classes/wt_catalog.php:93
+msgctxt "Title for page of editing post"
+msgid "Edit Element"
+msgstr "Редактировать элемент"
+
+#: core/classes/wt_catalog.php:94
+msgctxt "Text of new post"
+msgid "New Element"
+msgstr "Новый элемент"
+
+#: core/classes/wt_catalog.php:95
+msgctxt "Text for viewing post"
+msgid "View Element"
+msgstr "Посмотреть элемент"
+
+#: core/classes/wt_catalog.php:96
+msgctxt "Text for searching post"
+msgid "Search Elements"
+msgstr "Поиск по элементам"
+
+#: core/classes/wt_catalog.php:97
+msgctxt "Text if no elements"
+msgid "No Elements yet"
+msgstr "Элементов пока нет"
+
+#: core/classes/wt_catalog.php:98
+msgctxt "Text if no photos in trash"
+msgid "No Elements in trash"
+msgstr "Нет элементов в корзине"
+
+#: core/classes/wt_catalog.php:99
+msgctxt "Name of menu"
+msgid "Elements"
+msgstr "Элементы"
+
+#: core/classes/wt_catalog.php:100
+msgctxt "Name of menu"
+msgid "Catalog"
+msgstr "Каталог"
+
+#: core/classes/wt_catalog.php:105
+msgctxt "Description of post type"
+msgid "Elements for creating elements page"
+msgstr "Элементы для создания страницы каталога"
+
+#: core/classes/wt_catalog.php:347
+msgctxt "Title of settings page"
+msgid "Catalog settings"
+msgstr "Настройки каталога"
+
+#: core/classes/wt_catalog.php:348 core/classes/wt_gallery.php:390
+#: core/classes/wt_portfolio.php:338 core/classes/wt_testimonials.php:438
+msgctxt "Name of submenu page"
+msgid "Settings"
+msgstr "Настройки"
+
+#: core/classes/wt_catalog.php:358 core/classes/wt_gallery.php:478
+#: core/classes/wt_portfolio.php:348 core/classes/wt_testimonials.php:448
+msgctxt "Title for meta box"
+msgid "Main settings"
+msgstr "Основные настройки"
+
+#: core/classes/wt_catalog.php:391 core/classes/wt_gallery.php:510
+msgctxt "Label for field"
+msgid "Select display type"
+msgstr "Выберите тип отображения"
+
+#: core/classes/wt_catalog.php:393
+msgctxt "Label for field"
+msgid "Catalog page description"
+msgstr "Описание страницы каталога"
+
+#: core/classes/wt_catalog.php:443
+msgctxt "Name of admin bar menu"
+msgid "Edit Catalog Settings"
+msgstr "Редактировать настройки каталога"
+
+#: core/classes/wt_catalog.php:451
+msgctxt "Name of admin bar menu"
+msgid "View Catalog Page"
+msgstr "Посмотреть страницу каталога"
+
+#: core/classes/wt_components.php:40
+msgctxt "Additional text for social links"
+msgid "We are in social networks:"
+msgstr "Мы в социальных сетях:"
+
+#: core/classes/wt_components.php:96
+msgctxt "Text for share buttons"
+msgid "Share in social networks"
+msgstr "Поделиться в социальных сетях:"
+
+#: core/classes/wt_fields.php:105 core/classes/wt_fields.php:147
+msgctxt "Title for meta box"
+msgid "Custom fields"
+msgstr "Настраиваемые поля"
+
+#: core/classes/wt_fields.php:433
+msgctxt "User error"
+msgid ""
+"Current post type is not set. Please, set current post type by "
+"set_post_type( \"post_type\" ) method by using action "
+"\"wt_fields_generate_before\"."
+msgstr ""
+"Текущий тип поста не задан. Пожалуйста, задайте текущий тип поста с помощью "
+"метода set_post_type( \"post_type\" ), используя хук-событие "
+"\"wt_fields_generate_before\"."
+
+#: core/classes/wt_fields.php:440
+msgctxt "User error"
+msgid ""
+"Custom fields had generated already. You must call methods by using action "
+"\"wt_fields_generate_before\"."
+msgstr ""
+"Произвольные поля уже сгенерированы. Вы должны вызывать методы, используя "
+"хук-событие \"wt_fields_generate_before\"."
+
+#: core/classes/wt_fields.php:447
+msgctxt "User error"
+msgid ""
+"Page hook is not set. Global massive $_GET must contain indexes \"post_type"
+"\" and \"page\"."
+msgstr ""
+"Хук страницы не задан. Глобальный массив $_GET должен содержать индексы "
+"\"post_type\" and \"page\"."
+
+#: core/classes/wt_gallery.php:66
+msgctxt "General name for taxonomy"
+msgid "Albums"
+msgstr "Альбомы"
+
+#: core/classes/wt_gallery.php:67
+msgctxt "Single name for taxonomy"
+msgid "Album"
+msgstr "Альбом"
+
+#: core/classes/wt_gallery.php:68
+msgctxt "Name of menu"
+msgid "Albums"
+msgstr "Альбомы"
+
+#: core/classes/wt_gallery.php:69
+msgctxt "Text for searching taxonomy"
+msgid "Search Albums"
+msgstr "Поиск по альбомам"
+
+#: core/classes/wt_gallery.php:70 core/classes/wt_gallery.php:130
+msgctxt "All items of taxonomy"
+msgid "All Albums"
+msgstr "Все альбомы"
+
+#: core/classes/wt_gallery.php:71
+msgctxt "Title for page of editing taxonomy item"
+msgid "Edit Album"
+msgstr "Изменить альбом"
+
+#: core/classes/wt_gallery.php:72
+msgctxt "Text for updating taxonomy item"
+msgid "Update Album"
+msgstr "Обновить альбом"
+
+#: core/classes/wt_gallery.php:73
+msgctxt "Text of new taxonomy item"
+msgid "Add New Album"
+msgstr "Добавить новый альбом"
+
+#: core/classes/wt_gallery.php:74
+msgctxt "Text for viewing taxonomy item"
+msgid "View Album"
+msgstr "Посмотреть альбом"
+
+#: core/classes/wt_gallery.php:75
+msgctxt "Text for creating taxonomy item"
+msgid "New Album"
+msgstr "Новый альбом"
+
+#: core/classes/wt_gallery.php:77
+msgctxt "Text of deleting or creating taxonomy item"
+msgid "Add or remove albums"
+msgstr "Добавление или удаление альбомов"
+
+#: core/classes/wt_gallery.php:79
+msgctxt "Text for most used taxonomy items"
+msgid "Choose from most used albums"
+msgstr "Выберите из наиболее используемых альбомов"
+
+#: core/classes/wt_gallery.php:95
+msgctxt "General name for post type"
+msgid "Photos"
+msgstr "Фотографии"
+
+#: core/classes/wt_gallery.php:96
+msgctxt "Single name for post type"
+msgid "Photo"
+msgstr "Фотография"
+
+#: core/classes/wt_gallery.php:97
+msgctxt "Text for button add a photo"
+msgid "Add New"
+msgstr "Добавить новую"
+
+#: core/classes/wt_gallery.php:98
+msgctxt "Title for page of adding post"
+msgid "Add New Photo"
+msgstr "Добавить новую фотографию"
+
+#: core/classes/wt_gallery.php:99
+msgctxt "Title for page of editing post"
+msgid "Edit Photo"
+msgstr "Редактировать фотографию"
+
+#: core/classes/wt_gallery.php:100
+msgctxt "Text of new post"
+msgid "New Photo"
+msgstr "Новая фотография"
+
+#: core/classes/wt_gallery.php:101
+msgctxt "Text for viewing post"
+msgid "View Photo"
+msgstr "Посмотреть фотографию"
+
+#: core/classes/wt_gallery.php:102
+msgctxt "Text for searching post"
+msgid "Search Photos"
+msgstr "Поиск по фотографиям"
+
+#: core/classes/wt_gallery.php:103
+msgctxt "Text if no photos"
+msgid "No Photos yet"
+msgstr "Фотографий пока нет"
+
+#: core/classes/wt_gallery.php:104
+msgctxt "Text if no photos in trash"
+msgid "No Photos in trash"
+msgstr "Нет фотографий в корзине"
+
+#: core/classes/wt_gallery.php:105
+msgctxt "Name of menu"
+msgid "Photos"
+msgstr "Фотографии"
+
+#: core/classes/wt_gallery.php:106
+msgctxt "Name of menu"
+msgid "Gallery"
+msgstr "Галерея"
+
+#: core/classes/wt_gallery.php:111
+msgctxt "Description of post type"
+msgid "Photos for creating photos page"
+msgstr "Фотографии для создания страницы галереи"
+
+#: core/classes/wt_gallery.php:156
+msgctxt "Title of table column"
+msgid "Image"
+msgstr "Изображение"
+
+#: core/classes/wt_gallery.php:376
+msgctxt "Title of upload page"
+msgid "Multiple Upload"
+msgstr "Загрузить несколько"
+
+#: core/classes/wt_gallery.php:377
+msgctxt "Name of submenu page"
+msgid "Multiple Upload"
+msgstr "Загрузить несколько"
+
+#: core/classes/wt_gallery.php:383
+msgctxt "Title of photos grid page"
+msgid "Photos"
+msgstr "Фотографии"
+
+#: core/classes/wt_gallery.php:384
+msgctxt "Name of submenu page"
+msgid "Grid View"
+msgstr "Плиткой"
+
+#: core/classes/wt_gallery.php:389
+msgctxt "Title of settings page"
+msgid "Gallery settings"
+msgstr "Настройки галереи"
+
+#: core/classes/wt_gallery.php:396
+msgctxt "Title for meta box"
+msgid "Multiple Upload"
+msgstr "Загрузить несколько"
+
+#: core/classes/wt_gallery.php:512
+msgctxt "Label for field"
+msgid "Gallery page description"
+msgstr "Описание страницы галереи"
+
+#: core/classes/wt_gallery.php:562
+msgctxt "Name of admin bar menu"
+msgid "Edit Gallery Settings"
+msgstr "Редактировать настройки галереи"
+
+#: core/classes/wt_gallery.php:570
+msgctxt "Name of admin bar menu"
+msgid "View Gallery Page"
+msgstr "Посмотреть страницу галереи"
+
+#: core/classes/wt_likes.php:56
+msgctxt "Title of settings page"
+msgid "Likes"
+msgstr "Лайки"
+
+#: core/classes/wt_likes.php:56
+msgctxt "Name of options page"
+msgid "Likes"
+msgstr "Лайки"
+
+#: core/classes/wt_likes.php:65 core/classes/wt_ratings.php:67
+msgctxt "Title for meta box"
+msgid "Main options"
+msgstr "Основные настройки"
+
+#: core/classes/wt_likes.php:124
+msgctxt "Ajax error message"
+msgid "Wrong form nonce code. Betting like is impossible"
+msgstr "Неверный код проверки формы. Поставить лайк невозможно"
+
+#: core/classes/wt_likes.php:132
+msgctxt "Ajax error message"
+msgid "Wrong ID. Betting like is impossible"
+msgstr "Неверный идентификатор. Поставить лайк невозможно"
+
+#: core/classes/wt_likes.php:151
+msgctxt "Ajax success message"
+msgid "Like or unlike successful"
+msgstr "Лайк или отмена лайка прошло успешно"
+
+#: core/classes/wt_portfolio.php:79
+msgctxt "General name for post type"
+msgid "Cases"
+msgstr "Кейсы"
+
+#: core/classes/wt_portfolio.php:80
+msgctxt "Single name for post type"
+msgid "Case"
+msgstr "Кейс"
+
+#: core/classes/wt_portfolio.php:82
+msgctxt "Title for page of adding post"
+msgid "Add New Case"
+msgstr "Добавить новый кейс"
+
+#: core/classes/wt_portfolio.php:83
+msgctxt "Title for page of editing post"
+msgid "Edit Case"
+msgstr "Редактировать кейс"
+
+#: core/classes/wt_portfolio.php:84
+msgctxt "Text of new post"
+msgid "New Case"
+msgstr "Новый кейс"
+
+#: core/classes/wt_portfolio.php:85
+msgctxt "Text for viewing post"
+msgid "View Case"
+msgstr "Посмотреть кейс"
+
+#: core/classes/wt_portfolio.php:86
+msgctxt "Text for searching post"
+msgid "Search Cases"
+msgstr "Поиск по кейсам"
+
+#: core/classes/wt_portfolio.php:87
+msgctxt "Text if no cases"
+msgid "No Cases yet"
+msgstr "Кейсов пока нет"
+
+#: core/classes/wt_portfolio.php:88
+msgctxt "Text if no photos in trash"
+msgid "No Cases in trash"
+msgstr "Нет кейсов в корзине"
+
+#: core/classes/wt_portfolio.php:89
+msgctxt "Name of menu"
+msgid "Cases"
+msgstr "Кейсы"
+
+#: core/classes/wt_portfolio.php:90
+msgctxt "Name of menu"
+msgid "Portfolio"
+msgstr "Портфолио"
+
+#: core/classes/wt_portfolio.php:95
+msgctxt "Description of post type"
+msgid "Cases for creating cases page"
+msgstr "Кейсы для создания страницы портфолио"
+
+#: core/classes/wt_portfolio.php:337
+msgctxt "Title of settings page"
+msgid "Portfolio settings"
+msgstr "Настройки портфолио"
+
+#: core/classes/wt_portfolio.php:380
+msgctxt "Label for field"
+msgid "Portfolio page description"
+msgstr "Описание страницы портфолио"
+
+#: core/classes/wt_portfolio.php:425
+msgctxt "Name of admin bar menu"
+msgid "Edit Portfolio Settings"
+msgstr "Редактировать настройки портфолио"
+
+#: core/classes/wt_portfolio.php:433
+msgctxt "Name of admin bar menu"
+msgid "View Portfolio Page"
+msgstr "Посмотреть страницу портфолио"
+
+#: core/classes/wt_ratings.php:56
+msgctxt "Title of settings page"
+msgid "Ratings"
+msgstr "Оценки"
+
+#: core/classes/wt_ratings.php:57
+msgctxt "Name of options page"
+msgid "Ratings"
+msgstr "Оценки"
+
+#: core/classes/wt_ratings.php:121
+msgctxt "Ajax error message"
+msgid "Wrong form nonce code. Rating is impossible"
+msgstr "Неверный код проверки формы. Оценка невозможна"
+
+#: core/classes/wt_ratings.php:129
+msgctxt "Ajax error message"
+msgid "Wrong ID. Rating is impossible"
+msgstr "Неверный идентификатор. Оценка невозможна"
+
+#: core/classes/wt_ratings.php:137
+msgctxt "Ajax error message"
+msgid "Wrong star. Rating is impossible"
+msgstr "Неверная оценка. Оценка невозможна"
+
+#: core/classes/wt_ratings.php:168
+msgctxt "Ajax success message"
+msgid "Rating successful"
+msgstr "Оценка прошла успешно"
+
+#: core/classes/wt_settings.php:40
+msgctxt "Tag <title> for Theme settings page"
+msgid "Theme settings"
+msgstr "Настройки темы"
+
+#: core/classes/wt_settings.php:41
+msgctxt "Text of menu item"
+msgid "Theme settings"
+msgstr "Настройки темы"
+
+#: core/classes/wt_settings.php:72
+msgctxt "Title for meta box"
+msgid "Media"
+msgstr "Медиа"
+
+#: core/classes/wt_settings.php:74
+msgctxt "Title for meta box"
+msgid "Information"
+msgstr "Информация"
+
+#: core/classes/wt_settings.php:76
+msgctxt "Title for meta box"
+msgid "Social networks"
+msgstr "Социальные сети"
+
+#: core/classes/wt_settings.php:78
+msgctxt "Title for meta box"
+msgid "Additional settings"
+msgstr "Дополнительные настройки"
+
+#: core/classes/wt_settings.php:80
+msgctxt "Title for meta box"
+msgid "Permalink settings"
+msgstr "Настройки постоянных ссылок"
+
+#: core/classes/wt_settings.php:133
+msgid "Saved successfully"
+msgstr "Успешно сохранено"
+
+#: core/classes/wt_settings.php:164
+msgctxt "Help text for meta box"
+msgid "Select logos and favicon"
+msgstr "Выберите логотипы и иконку сайта"
+
+#: core/classes/wt_settings.php:168
+msgctxt "Label for field"
+msgid "Header Logo"
+msgstr "Логотип в шапке"
+
+#: core/classes/wt_settings.php:170
+msgctxt "Label for field"
+msgid "Footer Logo"
+msgstr "Логотип в подвале"
+
+#: core/classes/wt_settings.php:172
+msgctxt "Label for field"
+msgid "Favicon"
+msgstr "Иконка сайта"
+
+#: core/classes/wt_settings.php:180 core/classes/wt_testimonials.php:539
+msgctxt "Help text for meta box"
+msgid "Specify the main information"
+msgstr "Укажите основную информацию"
+
+#: core/classes/wt_settings.php:184
+msgctxt "Label for field"
+msgid "Phone"
+msgstr "Телефон"
+
+#: core/classes/wt_settings.php:186
+msgctxt "Label for field"
+msgid "Additional phone"
+msgstr "Дополнительный телефон"
+
+#: core/classes/wt_settings.php:188
+msgctxt "Label for field"
+msgid "E-mail"
+msgstr "E-mail"
+
+#: core/classes/wt_settings.php:190
+msgctxt "Label for field"
+msgid "Address"
+msgstr "Адрес"
+
+#: core/classes/wt_settings.php:192
+msgctxt "Label for field"
+msgid "Distance"
+msgstr "Расстояние"
+
+#: core/classes/wt_settings.php:194
+msgctxt "Label for field"
+msgid "Work time"
+msgstr "Время работы"
+
+#: core/classes/wt_settings.php:196
+msgctxt "Label for field"
+msgid "Copyright"
+msgstr "Aвторские права"
+
+#: core/classes/wt_settings.php:198
+msgctxt "Label for field"
+msgid "Link to web studio"
+msgstr "Ссылка на веб-студию"
+
+#: core/classes/wt_settings.php:213
+msgctxt "Help text for meta box"
+msgid ""
+"Specify links to your existing groups / pages in social networks (one link "
+"to each social network)."
+msgstr ""
+"Укажите ссылки на ваши существующие группы/страницы в социальных сетях (по "
+"одной ссылке на каждую социальную сеть)."
+
+#: core/classes/wt_settings.php:217
+msgctxt "Label for field"
+msgid "Vkontakte"
+msgstr "Вконтакте"
+
+#: core/classes/wt_settings.php:219
+msgctxt "Label for field"
+msgid "Facebook"
+msgstr ""
+
+#: core/classes/wt_settings.php:221
+msgctxt "Label for field"
+msgid "Instagram"
+msgstr ""
+
+#: core/classes/wt_settings.php:223
+msgctxt "Label for field"
+msgid "Google+"
+msgstr ""
+
+#: core/classes/wt_settings.php:225
+msgctxt "Label for field"
+msgid "Odnoklassniki"
+msgstr "Одноклассники"
+
+#: core/classes/wt_settings.php:227
+msgctxt "Label for field"
+msgid "Twitter"
+msgstr ""
+
+#: core/classes/wt_settings.php:229
+msgctxt "Label for field"
+msgid "LinkedIn"
+msgstr ""
+
+#: core/classes/wt_settings.php:231
+msgctxt "Label for field"
+msgid "Youtube channel"
+msgstr "YouTube канал"
+
+#: core/classes/wt_settings.php:246
+msgctxt "Help text for meta box"
+msgid "If you do not know the meaning of these settings, do not change it."
+msgstr "Если Вы не знаете, что означают эти настройки, не трогайте их."
+
+#: core/classes/wt_settings.php:251
+msgctxt "Label for field"
+msgid "Map code with the address (Google maps, Yandex maps, etc.)"
+msgstr "Код карты с адресом (Google карты, Yandex карты и другие)"
+
+#: core/classes/wt_settings.php:253
+msgctxt "Label for field"
+msgid "Counter Code"
+msgstr "Код счётчика"
+
+#: core/classes/wt_settings.php:255
+msgctxt "Label for field"
+msgid "Fancybox"
+msgstr ""
+
+#: core/classes/wt_settings.php:257
+msgctxt "Label for field"
+msgid "Owl Carousel"
+msgstr ""
+
+#: core/classes/wt_settings.php:259
+msgctxt "Label for field"
+msgid "The Modal"
+msgstr ""
+
+#: core/classes/wt_settings.php:261
+msgctxt "Label for field"
+msgid "ScrollTo"
+msgstr ""
+
+#: core/classes/wt_settings.php:274
+msgctxt "Help text for meta box"
+msgid "Permalink settings for theme taxonomies and post types"
+msgstr "Настройки постоянных ссылок для таксономий и типов постов темы"
+
+#: core/classes/wt_settings.php:277
+msgctxt "Label for field"
+msgid "Portfolio slug"
+msgstr "Ярлык портфолио"
+
+#: core/classes/wt_settings.php:279
+msgctxt "Label for field"
+msgid "Catalog slug"
+msgstr "Ярлык каталога"
+
+#: core/classes/wt_settings.php:281
+msgctxt "Label for field"
+msgid "Gallery slug"
+msgstr "Ярлык галереи"
+
+#: core/classes/wt_setup.php:69
+msgid "Header Menu"
+msgstr "Меню в шапке"
+
+#: core/classes/wt_setup.php:69
+msgid "Footer Menu"
+msgstr "Меню в подвале"
+
+#: core/classes/wt_setup.php:75
+msgctxt "Name of sidebar"
+msgid "Standard Sidebar"
+msgstr "Стандартная боковая колонка"
+
+#: core/classes/wt_setup.php:111
+#: core/tmpl/metaboxes/wt_settings/info/email.php:25
+#: core/tmpl/metaboxes/wt_settings/info/phone.php:25
+#: core/tmpl/metaboxes/wt_settings/info/phone_add.php:25
+msgctxt "Label of link"
+msgid "same tab"
+msgstr "текущей вкладке"
+
+#: core/classes/wt_setup.php:112
+#: core/tmpl/metaboxes/wt_settings/info/email.php:24
+#: core/tmpl/metaboxes/wt_settings/info/phone.php:24
+#: core/tmpl/metaboxes/wt_settings/info/phone_add.php:24
+msgctxt "Label of link"
+msgid "new tab"
+msgstr "новой вкладке"
+
+#: core/classes/wt_setup.php:113
+#: core/tmpl/metaboxes/wt_settings/info/email.php:22
+#: core/tmpl/metaboxes/wt_settings/info/phone.php:22
+#: core/tmpl/metaboxes/wt_settings/info/phone_add.php:22
+msgctxt "Label of link"
+msgid "Link opens in"
+msgstr "Ссылка откроется в"
+
+#: core/classes/wt_templates.php:23
+msgctxt "Template name in theme"
+msgid "Testimonials (embed)"
+msgstr "Отзывы (встроенные)"
+
+#: core/classes/wt_templates.php:24
+msgctxt "Template name in theme"
+msgid "Gallery (embed)"
+msgstr "Галерея (встроенная)"
+
+#: core/classes/wt_testimonials.php:78 core/classes/wt_testimonials.php:244
+msgctxt "General name for post type"
+msgid "Testimonials"
+msgstr "Отзывы"
+
+#: core/classes/wt_testimonials.php:79
+msgctxt "Single name for post type"
+msgid "Testimonial"
+msgstr "Отзыв"
+
+#: core/classes/wt_testimonials.php:80
+msgctxt "Text for button add a testimonial"
+msgid "Add New"
+msgstr "Добавить новый"
+
+#: core/classes/wt_testimonials.php:81
+msgctxt "Title for page of adding post"
+msgid "Add New Testimonial"
+msgstr "Добавить новый отзыв"
+
+#: core/classes/wt_testimonials.php:82
+msgctxt "Title for page of editing post"
+msgid "Edit Testimonial"
+msgstr "Редактировать отзыв"
+
+#: core/classes/wt_testimonials.php:83
+msgctxt "Text of new post"
+msgid "New Testimonial"
+msgstr "Новый отзыв"
+
+#: core/classes/wt_testimonials.php:84
+msgctxt "Text for viewing post"
+msgid "View Testimonial"
+msgstr "Посмотреть отзыв"
+
+#: core/classes/wt_testimonials.php:85
+msgctxt "Text for searching post"
+msgid "Search Testimonials"
+msgstr "Поиск отзывов"
+
+#: core/classes/wt_testimonials.php:86
+msgctxt "Text if no testimonials"
+msgid "No Testimonials yet"
+msgstr "Отзывов пока нет"
+
+#: core/classes/wt_testimonials.php:87
+msgctxt "Text if no testimonials in trash"
+msgid "No Testimonials in trash"
+msgstr "Нет отзывов в корзине"
+
+#: core/classes/wt_testimonials.php:88
+msgctxt "Name of menu"
+msgid "Testimonials"
+msgstr "Отзывы"
+
+#: core/classes/wt_testimonials.php:93
+msgctxt "Description of post type"
+msgid "Testimonials for creating testimonials page"
+msgstr "Отзывы для создания страницы отзывов"
+
+#: core/classes/wt_testimonials.php:104
+msgctxt "Label for status"
+msgid "Unapprove"
+msgstr "Отменить одобрение"
+
+#: core/classes/wt_testimonials.php:106 core/classes/wt_testimonials.php:108
+#: core/classes/wt_testimonials.php:211
+msgctxt "Status of testimonial"
+msgid "Unapproved"
+msgstr "Не одобрено"
+
+#: core/classes/wt_testimonials.php:107 core/classes/wt_testimonials.php:114
+#: core/classes/wt_testimonials.php:121
+#, php-format
+msgid " <span class=\"count\">(%s)</span>"
+msgid_plural " <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: core/classes/wt_testimonials.php:111
+msgctxt "Label for status"
+msgid "Approve"
+msgstr "Одобрить"
+
+#: core/classes/wt_testimonials.php:113 core/classes/wt_testimonials.php:115
+#: core/classes/wt_testimonials.php:214
+msgctxt "Status of testimonial"
+msgid "Approved"
+msgstr "Одобрено"
+
+#: core/classes/wt_testimonials.php:118
+msgctxt "Label for status"
+msgid "Reject"
+msgstr "Отклонить"
+
+#: core/classes/wt_testimonials.php:120 core/classes/wt_testimonials.php:122
+#: core/classes/wt_testimonials.php:217
+msgctxt "Status of testimonial"
+msgid "Rejected"
+msgstr "Отклонено"
+
+#: core/classes/wt_testimonials.php:132
+msgctxt "Action to change status of testimonial"
+msgid "Reject"
+msgstr "Отклонить"
+
+#: core/classes/wt_testimonials.php:136
+msgctxt "Action to change status of testimonial"
+msgid "Approve"
+msgstr "Одобрить"
+
+#: core/classes/wt_testimonials.php:195
+msgctxt "Title of table column"
+msgid "Status"
+msgstr "Статус"
+
+#: core/classes/wt_testimonials.php:196
+msgctxt "Title of table column"
+msgid "Content"
+msgstr "Содержимое"
+
+#: core/classes/wt_testimonials.php:220
+msgid "Published"
+msgstr "Опубликованные"
+
+#: core/classes/wt_testimonials.php:223
+msgid "Trash"
+msgstr "Корзина"
+
+#: core/classes/wt_testimonials.php:268 core/classes/wt_testimonials.php:452
+msgctxt "Title for meta box"
+msgid "Fields"
+msgstr "Произвольные поля"
+
+#: core/classes/wt_testimonials.php:327 core/classes/wt_testimonials.php:328
+#: core/classes/wt_testimonials.php:355
+msgctxt "Part of testimonial title"
+msgid "Testimonial"
+msgstr "Отзыв"
+
+#: core/classes/wt_testimonials.php:437
+msgctxt "Title of settings page"
+msgid "Testimonial settings"
+msgstr "Настройки отзывов"
+
+#: core/classes/wt_testimonials.php:523
+msgctxt "Name of admin bar menu"
+msgid "Edit Testimonials Settings"
+msgstr "Редактировать настройки отзывов"
+
+#: core/classes/wt_testimonials.php:531
+msgctxt "Name of admin bar menu"
+msgid "View Testimonials Page"
+msgstr "Посмотреть страницу отзывов"
+
+#: core/classes/wt_testimonials.php:542
+msgctxt "Label for field"
+msgid "Testimonials page description"
+msgstr "Описание страницы отзывов"
+
+#: core/classes/wt_testimonials.php:677
+msgid "Save"
+msgstr "Сохранить"
+
+#: core/classes/wt_update.php:74
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+"Произошла непредвиденная HTTP-ошибка во время запроса API. </p> <p><a href="
+"\"?\" onclick=\"document.location.reload(); return false;\">Попробовать ещё "
+"раз</a>"
+
+#: core/classes/wt_update.php:80
+msgid "An unknown error occurred"
+msgstr "Произошла неизвестная ошибка"
+
+#: core/tmpl/admin/catalog_settings.php:2
+msgctxt "Title on settings page"
+msgid "Catalog Settings"
+msgstr "Настройки каталога"
+
+#: core/tmpl/admin/catalog_settings.php:15
+#: core/tmpl/admin/gallery_settings.php:15
+#: core/tmpl/admin/likes_settings.php:15 core/tmpl/admin/multiple_upload.php:15
+#: core/tmpl/admin/portfolio_settings.php:15
+#: core/tmpl/admin/ratings_settings.php:15
+#: core/tmpl/admin/testimonials_settings.php:15
+#: core/tmpl/admin/theme_settings.php:19
+msgid "Editing data"
+msgstr "Редактирование данных"
+
+#: core/tmpl/admin/catalog_settings.php:20
+#: core/tmpl/admin/gallery_settings.php:20
+#: core/tmpl/admin/likes_settings.php:20 core/tmpl/admin/multiple_upload.php:20
+#: core/tmpl/admin/portfolio_settings.php:20
+#: core/tmpl/admin/ratings_settings.php:20
+#: core/tmpl/admin/testimonials_settings.php:20
+#: core/tmpl/admin/theme_settings.php:24
+msgid "Save Changes"
+msgstr "Обновить"
+
+#: core/tmpl/admin/gallery_grid.php:3
+msgctxt "Title on settings page"
+msgid "Photos"
+msgstr "Фотографии"
+
+#: core/tmpl/admin/gallery_grid.php:5
+msgctxt "Text for button on gallery grid page"
+msgid "Add New"
+msgstr "Добавить новую"
+
+#: core/tmpl/admin/gallery_grid.php:8
+msgctxt "Title for screen reader"
+msgid "Filter pages list"
+msgstr "Фильтр списка страниц"
+
+#: core/tmpl/admin/gallery_grid.php:13
+msgctxt "Text for link on gallery grid page"
+msgid "All"
+msgstr "Все"
+
+#: core/tmpl/admin/gallery_grid.php:23
+msgctxt "Text for link on gallery grid page"
+msgid "Published"
+msgstr "Опубликовано"
+
+#: core/tmpl/admin/gallery_grid.php:34
+msgctxt "Text for link on gallery grid page"
+msgid "Pending"
+msgstr "В ожидании"
+
+#: core/tmpl/admin/gallery_grid.php:45
+msgctxt "Text for link on gallery grid page"
+msgid "Trash"
+msgstr "Корзина"
+
+#: core/tmpl/admin/gallery_grid.php:62
+msgid "Filter"
+msgstr "Фильтр"
+
+#: core/tmpl/admin/gallery_grid.php:98
+msgid "Restore"
+msgstr "Восстановить"
+
+#: core/tmpl/admin/gallery_grid.php:102
+msgid "Delete Permanently"
+msgstr "Удалить безвозвратно"
+
+#: core/tmpl/admin/gallery_settings.php:2
+msgctxt "Title on settings page"
+msgid "Gallery Settings"
+msgstr "Настройки галереи"
+
+#: core/tmpl/admin/likes_settings.php:2
+msgctxt "Title on settings page"
+msgid "Likes Settings"
+msgstr "Настройки Лайков"
+
+#: core/tmpl/admin/multiple_upload.php:2
+msgctxt "Title on upload page"
+msgid "Multiple Upload Photos"
+msgstr "Загрузка нескольких фотографий"
+
+#: core/tmpl/admin/portfolio_settings.php:2
+msgctxt "Title on settings page"
+msgid "Portfolio Settings"
+msgstr "Настройки портфолио"
+
+#: core/tmpl/admin/ratings_settings.php:2
+msgctxt "Title on settings page"
+msgid "Ratings Settings"
+msgstr "Настройки оценок"
+
+#: core/tmpl/admin/testimonials_settings.php:2
+msgctxt "Title on settings page"
+msgid "Testimonial Settings"
+msgstr "Настройка отзывов"
+
+#: core/tmpl/admin/testimonials_settings.php:66
+msgctxt "Popup message by deleting field"
+msgid "Are you sure you want to delete this field?"
+msgstr "Вы уверены, что хотите удалить это поле?"
+
+#: core/tmpl/admin/theme_settings.php:2
+msgctxt "Title on page"
+msgid "Theme settings"
+msgstr "Настройки темы"
+
+#: core/tmpl/inc/field.php:3 core/tmpl/metaboxes/wt_fields/fields.php:6
+msgctxt "Title of field"
+msgid "Custom field"
+msgstr "Произвольное поле"
+
+#: core/tmpl/inc/field.php:5 core/tmpl/metaboxes/wt_fields/fields.php:8
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:8
+msgctxt "Type of field"
+msgid "Text"
+msgstr "Текст"
+
+#: core/tmpl/inc/field.php:6 core/tmpl/metaboxes/wt_fields/fields.php:9
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:9
+msgctxt "Type of field"
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#: core/tmpl/inc/field.php:7 core/tmpl/metaboxes/wt_fields/fields.php:10
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:10
+msgctxt "Title of field"
+msgid "Image"
+msgstr "Изображение"
+
+#: core/tmpl/inc/field.php:8 core/tmpl/metaboxes/wt_fields/fields.php:11
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:11
+msgctxt "Title of field"
+msgid "Images"
+msgstr "Изображения"
+
+#: core/tmpl/inc/field.php:9 core/tmpl/metaboxes/wt_fields/fields.php:12
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:12
+msgctxt "Title of field"
+msgid "File"
+msgstr "Файл"
+
+#: core/tmpl/inc/field.php:10 core/tmpl/metaboxes/wt_fields/fields.php:13
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:13
+msgctxt "Title of field"
+msgid "Files"
+msgstr "Файлы"
+
+#: core/tmpl/inc/field.php:11 core/tmpl/metaboxes/wt_fields/fields.php:14
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:14
+msgctxt "Title of field"
+msgid "Video"
+msgstr "Видеозапись"
+
+#: core/tmpl/inc/field.php:12 core/tmpl/metaboxes/wt_fields/fields.php:15
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:15
+msgctxt "Title of field"
+msgid "Videos"
+msgstr "Видеозаписи"
+
+#: core/tmpl/inc/field.php:13 core/tmpl/metaboxes/wt_fields/fields.php:16
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:16
+msgctxt "Title of field"
+msgid "Rating"
+msgstr "Оценка"
+
+#: core/tmpl/inc/field.php:15 core/tmpl/metaboxes/wt_fields/fields.php:19
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:19
+msgctxt "Label for input"
+msgid "Code of field"
+msgstr "Код поля"
+
+#: core/tmpl/inc/field.php:17 core/tmpl/metaboxes/wt_fields/fields.php:22
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:22
+msgctxt "Title of field"
+msgid "Required?"
+msgstr "Обязательное поле?"
+
+#: core/tmpl/inc/field.php:20 core/tmpl/metaboxes/wt_fields/fields.php:27
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:27
+msgctxt "Label for input"
+msgid "Label of field"
+msgstr "Подпись поля"
+
+#: core/tmpl/inc/field.php:23 core/tmpl/metaboxes/wt_fields/fields.php:31
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:31
+msgid "Delete"
+msgstr "Удалить"
+
+#: core/tmpl/metaboxes/wt_catalog_settings/main/display_type.php:15
+msgctxt "Radio label"
+msgid "Sections list"
+msgstr "Список разделов"
+
+#: core/tmpl/metaboxes/wt_catalog_settings/main/display_type.php:23
+msgctxt "Radio label"
+msgid "Catalog elements"
+msgstr "Элементы каталога"
+
+#: core/tmpl/metaboxes/wt_catalog_settings/main/display_type.php:31
+msgctxt "Radio label"
+msgid "Combined"
+msgstr "Комбинированное"
+
+#: core/tmpl/metaboxes/wt_catalog_settings/main/display_type.php:36
+msgctxt "Description of field"
+msgid ""
+"Page of any section will display a list of child sections or elements list "
+"os section"
+msgstr ""
+"Страница любого раздела будет отображать список дочерних разделов или список "
+"элементов раздела"
+
+#: core/tmpl/metaboxes/wt_fields/fields.php:1
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:1
+msgctxt "Text for button"
+msgid "Add field"
+msgstr "Добавить поле"
+
+#: core/tmpl/metaboxes/wt_fields/fields/file.php:7
+#: core/tmpl/metaboxes/wt_fields/fields/files.php:7
+#: core/tmpl/metaboxes/wt_fields/fields/image.php:7
+#: core/tmpl/metaboxes/wt_fields/fields/images.php:7
+#: core/tmpl/metaboxes/wt_fields/fields/video.php:7
+#: core/tmpl/metaboxes/wt_fields/fields/videos.php:7
+#: core/tmpl/metaboxes/wt_gallery/upload_photos.php:10
+#: core/tmpl/metaboxes/wt_settings/media/favicon.php:2
+#: core/tmpl/metaboxes/wt_settings/media/footer_logo.php:2
+#: core/tmpl/metaboxes/wt_settings/media/header_logo.php:2
+#: core/tmpl/metaboxes/wt_settings/social/fb.php:2
+#: core/tmpl/metaboxes/wt_settings/social/gplus.php:2
+#: core/tmpl/metaboxes/wt_settings/social/instagram.php:2
+#: core/tmpl/metaboxes/wt_settings/social/linkedin.php:2
+#: core/tmpl/metaboxes/wt_settings/social/ok.php:2
+#: core/tmpl/metaboxes/wt_settings/social/twitter.php:2
+#: core/tmpl/metaboxes/wt_settings/social/vk.php:2
+#: core/tmpl/metaboxes/wt_settings/social/youtube.php:2
+#: core/tmpl/metaboxes/wt_testimonials/fields/file.php:7
+#: core/tmpl/metaboxes/wt_testimonials/fields/files.php:7
+#: core/tmpl/metaboxes/wt_testimonials/fields/image.php:7
+#: core/tmpl/metaboxes/wt_testimonials/fields/images.php:7
+#: core/tmpl/metaboxes/wt_testimonials/fields/video.php:7
+#: core/tmpl/metaboxes/wt_testimonials/fields/videos.php:7
+msgid "Upload"
+msgstr "Загрузить"
+
+#: core/tmpl/metaboxes/wt_gallery/upload_photos.php:4
+msgctxt "Label for selecting album"
+msgid "Select album"
+msgstr "Выберите альбом"
+
+#: core/tmpl/metaboxes/wt_gallery/upload_photos.php:14
+#, php-format
+msgctxt "Text for multiple upload if albums are not yet"
+msgid "At first %sadd album%s"
+msgstr "Для начала %sдобавьте альбом%s"
+
+#: core/tmpl/metaboxes/wt_gallery/view_switch.php:2
+msgctxt "Label for view switch"
+msgid "Gallery view:"
+msgstr "Вид галереи:"
+
+#: core/tmpl/metaboxes/wt_gallery/view_switch.php:6
+msgctxt "Label for view switch"
+msgid "List view:"
+msgstr "Списком"
+
+#: core/tmpl/metaboxes/wt_gallery/view_switch.php:11
+msgctxt "Label for view switch"
+msgid "Grid view:"
+msgstr "Плиткой"
+
+#: core/tmpl/metaboxes/wt_gallery_settings/main/display_type.php:15
+msgctxt "Radio label"
+msgid "Open photos in the adaptive gallery Fancybox 3"
+msgstr "Открывать фотографии в адаптивной галерее Fancybox 3"
+
+#: core/tmpl/metaboxes/wt_gallery_settings/main/display_type.php:23
+msgctxt "Radio label"
+msgid "Open photos on a separate page"
+msgstr "Открывать фотографии на отдельной странице"
+
+#: core/tmpl/metaboxes/wt_likes/main.php:11
+msgctxt "Help text for main likes settings"
+msgid "Select for which post types activate the ability to bet like"
+msgstr "Выберите для каких типов постов активировать функцию поставить лайк"
+
+#: core/tmpl/metaboxes/wt_ratings/main.php:11
+msgctxt "Help text for main ratings settings"
+msgid "Select for which post types activate the ability to put stars"
+msgstr ""
+"Выберите для каких типов постов активировать возможность поставить оценку"
+
+#: core/tmpl/metaboxes/wt_settings/extra/enable_fancybox.php:3
+msgctxt "Checkbox label"
+msgid "Include Fancybox 3?"
+msgstr "Включить Fancybox 3?"
+
+#: core/tmpl/metaboxes/wt_settings/extra/enable_fancybox.php:5
+msgctxt "Description of library"
+msgid ""
+"The library allows to run modal windows, and also creates adaptive image "
+"galleries."
+msgstr ""
+"Библиотека позволяет запускать модальные окна, а также создаёт адаптивные "
+"галереи изображений."
+
+#: core/tmpl/metaboxes/wt_settings/extra/enable_owl_carousel.php:2
+msgctxt "Checkbox label"
+msgid "Include Owl Carousel?"
+msgstr "Включить Owl Carousel?"
+
+#: core/tmpl/metaboxes/wt_settings/extra/enable_owl_carousel.php:4
+msgctxt "Description of library"
+msgid "Library that implements sliders work on the site."
+msgstr "Библиотека, реализующая работу слайдеров на сайте."
+
+#: core/tmpl/metaboxes/wt_settings/extra/enable_scrollto.php:2
+msgctxt "Checkbox label"
+msgid "Include ScrollTo?"
+msgstr "Включить ScrollTo?"
+
+#: core/tmpl/metaboxes/wt_settings/extra/enable_scrollto.php:4
+msgctxt "Description of library"
+msgid ""
+"Library that creates an anchor function with smooth scrolling on the page."
+msgstr "Библиотека, создающая функцию якоря с плавной прокруткой на странице."
+
+#: core/tmpl/metaboxes/wt_settings/extra/enable_the_modal.php:2
+msgctxt "Checkbox label"
+msgid "Include The Modal?"
+msgstr "Включить The Modal?"
+
+#: core/tmpl/metaboxes/wt_settings/extra/enable_the_modal.php:4
+msgctxt "Description of library"
+msgid "Library that allows to run the modal windows."
+msgstr "Библиотека, позволяющая запускать модальные окна."
+
+#: core/tmpl/metaboxes/wt_settings/info/email.php:12
+#: core/tmpl/metaboxes/wt_settings/info/phone.php:12
+#: core/tmpl/metaboxes/wt_settings/info/phone_add.php:12
+msgctxt "Label of link"
+msgid "Title"
+msgstr "Заголовок"
+
+#: core/tmpl/metaboxes/wt_settings/info/email.php:16
+#: core/tmpl/metaboxes/wt_settings/info/phone.php:16
+#: core/tmpl/metaboxes/wt_settings/info/phone_add.php:16
+msgctxt "Label of link"
+msgid "URL"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/info/email.php:20
+#: core/tmpl/metaboxes/wt_settings/info/phone.php:20
+#: core/tmpl/metaboxes/wt_settings/info/phone_add.php:20
+msgctxt "Label of link"
+msgid "Target"
+msgstr "Цель"
+
+#: core/tmpl/metaboxes/wt_settings/info/email.php:35
+msgctxt "Label of link"
+msgid "E-mail is not specified"
+msgstr "E-mail не указан"
+
+#: core/tmpl/metaboxes/wt_settings/info/email.php:37
+#: core/tmpl/metaboxes/wt_settings/info/phone.php:36
+#: core/tmpl/metaboxes/wt_settings/info/phone_add.php:36
+msgctxt "Text for button"
+msgid "Insert link"
+msgstr "Вставить ссылку"
+
+#: core/tmpl/metaboxes/wt_settings/info/phone.php:35
+msgctxt "Label of link"
+msgid "Phone is not specified"
+msgstr "Телефон не указан"
+
+#: core/tmpl/metaboxes/wt_settings/info/phone_add.php:35
+msgctxt "Label of link"
+msgid "Additional phone is not specified"
+msgstr "Дополнительный телефон не указан"
+
+#: core/tmpl/metaboxes/wt_settings/permalink/remove_slug_catalog.php:3
+msgctxt "Checkbox label"
+msgid "Remove slug \"catalog\" from catalog links"
+msgstr "Удалить ярлык \"catalog\" из ссылок каталога"
+
+#: core/tmpl/metaboxes/wt_settings/permalink/remove_slug_gallery.php:3
+msgctxt "Checkbox label"
+msgid "Remove slug \"gallery\" from gallery links"
+msgstr "Удалить ярлык \"gallery\" из ссылок галереи"
+
+#: core/tmpl/metaboxes/wt_settings/permalink/remove_slug_portfolio.php:3
+msgctxt "Checkbox label"
+msgid "Remove slug \"portfolio\" from portfolio links"
+msgstr "Удалить ярлык \"portfolio\" из ссылок портфолио"
+
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:6
+msgctxt "Title of field"
+msgid "Testimonials field"
+msgstr "Поле отзыва"
+
+#: core/tmpl/wt_components/share_links/fb.php:3
+#: core/tmpl/wt_components/share_links/fb.php:5
+msgctxt "Text of share button"
+msgid "Share on Facebook"
+msgstr "Поделиться в Facebook"
+
+#: core/tmpl/wt_components/share_links/gplus.php:3
+#: core/tmpl/wt_components/share_links/gplus.php:5
+msgctxt "Text of share button"
+msgid "Share on Google+"
+msgstr "Поделиться в Google+"
+
+#: core/tmpl/wt_components/share_links/linkedin.php:4
+#: core/tmpl/wt_components/share_links/linkedin.php:6
+msgctxt "Text of share button"
+msgid "Share on LinkedIn"
+msgstr "Поделиться в LinkedIn"
+
+#: core/tmpl/wt_components/share_links/ok.php:5
+#: core/tmpl/wt_components/share_links/ok.php:7
+msgctxt "Text of share button"
+msgid "Share on Odnoklassniki"
+msgstr "Поделиться в Одноклассниках"
+
+#: core/tmpl/wt_components/share_links/twitter.php:7
+#: core/tmpl/wt_components/share_links/twitter.php:9
+msgctxt "Text of share button"
+msgid "Share on Twitter"
+msgstr "Поделиться в Twitter"
+
+#: core/tmpl/wt_components/share_links/vk.php:3
+#: core/tmpl/wt_components/share_links/vk.php:5
+msgctxt "Text of share button"
+msgid "Share on VKontakte"
+msgstr "Поделиться в Вконтакте"
+
+#: core/tmpl/wt_testimonials/form.php:4 core/tmpl/wt_testimonials/form.php:5
+msgid "Content"
+msgstr "Содержимое"
+
+#: footer.php:11
+msgid "Back to top"
+msgstr "Вернуться к началу"
+
+#: footer.php:74 header.php:96 parts/side-menu.php:32
+msgid "Get in touch"
+msgstr "Связаться"
+
+#: functions.php:43
+msgctxt "Name of widget"
+msgid "Modal Widget"
+msgstr "Модальное окно"
+
+#: functions.php:44
+msgid "Widgets in this area will be shown on modal window."
+msgstr "Виджеты в этой области будут показаны в модальном окне."
+
+#: header.php:30
+msgid "Menu"
+msgstr "Меню"
+
+#: parts/catalog/content-sections.php:22
+msgctxt "Text for button"
+msgid "Read more"
+msgstr "Подробнее"
+
+#: search.php:6
+msgid "Search result for"
+msgstr "Результат поиска для"
+
+#: search/main.php:3
+msgctxt "Placeholder on form of search"
+msgid "Site search"
+msgstr "Поиск по сайту"
+
+#: search/main.php:4
+msgctxt "submit button"
+msgid "Search"
+msgstr "Поиск"
+
+#. Theme Name of the plugin/theme
+msgid "Walnut"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://walnut.team/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Universal and powerful theme for creating sites on Wordpress"
+msgstr "Универсальная и мощная тема для создания сайтов на WordPress"
+
+#. Author of the plugin/theme
+msgid "Walnut Team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://walnut.team/"
+msgstr ""

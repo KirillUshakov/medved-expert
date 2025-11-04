@@ -1,0 +1,50 @@
+// Create default hidden styles
+
+@include responsive-hidden('.visible-mobile');
+@include responsive-hidden('.visible-small');
+@include responsive-hidden('.visible-medium');
+@include responsive-hidden('.visible-large');
+@include responsive-hidden('.visible-touch');
+@include responsive-hidden('.visible-desktop');
+
+// Create mobile styles
+
+@media (max-width: $screen-mobile-max) {
+  @include responsive-visible('.visible-mobile');
+  @include responsive-hidden('.hidden-mobile');
+}
+
+// Create small screen styles
+
+@media (min-width: $screen-small) and (max-width: $screen-small-max) {
+	@include responsive-visible('.visible-small');
+  @include responsive-hidden('.hidden-small');
+}
+
+// Create touch styles
+
+@media (max-width: $screen-small-max) {
+  @include responsive-visible('.visible-touch');
+  @include responsive-hidden('.hidden-touch');
+}
+
+// Create desktop styles
+
+@media (min-width: $screen-medium) {
+  @include responsive-visible('.visible-desktop');
+  @include responsive-hidden('.hidden-desktop');
+}
+
+// Create medium screen styles
+
+@media (min-width: $screen-medium) and (max-width: $screen-medium-max) {
+  @include responsive-visible('.visible-medium');
+  @include responsive-hidden('.hidden-medium');
+}
+
+// Create visible screen styles
+
+@media (min-width: $screen-large) {
+  @include responsive-visible('.visible-large');
+  @include responsive-hidden('.hidden-large');
+}

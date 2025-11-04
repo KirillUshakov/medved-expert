@@ -1,0 +1,34 @@
+@mixin button-size($padding-vertical, $padding-horizontal, $font-size, $line-height, $border-radius) {
+	padding: $padding-vertical $padding-horizontal;
+	font-size: $font-size;
+	line-height: $line-height;
+	border-radius: $border-radius;
+}
+
+@mixin button-color($color, $background, $border) {
+	color: $color;
+	background-color: $background;
+	border-color: $border;
+	&:hover {
+		color: $color;
+		background-color: darken($background, 10%);
+		border-color: darken($border, 12%);
+	}
+	&:active {
+		color: $color;
+		background-color: darken($background, 14%);
+		border-color: darken($border, 20%);
+	}
+}
+
+@mixin button-link($color, $underline: '', $hover-underline: 'none') {
+	color: $color;
+	text-decoration: #{$underline};
+	&:hover {
+		color: darken($color, 20%);
+		text-decoration: #{$hover-underline};
+	}
+	&:active {
+		color: darken($color, 25%);
+	}
+}

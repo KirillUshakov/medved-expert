@@ -1,0 +1,1515 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Walnut\n"
+"POT-Creation-Date: 2018-04-10 19:36+0300\n"
+"PO-Revision-Date: 2018-04-10 19:36+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgctxt "Title of 404 page"
+msgid "Oops!"
+msgstr ""
+
+#: 404.php:19
+#, php-format
+msgctxt "Text with link on 404 page"
+msgid "It seems, you are lost! Go to the %shome page%s. "
+msgstr ""
+
+#: archive-wt_case.php:12 archive-wt_case.php:14 archive-wt_case.php:16
+#: archive.php:12 archive.php:14 archive.php:16
+msgid "Archive records for"
+msgstr ""
+
+#: archive-wt_case.php:38 archive-wt_testimonial.php:63 archive.php:38
+#: category.php:25 core/tmpl/page/gallery.php:37
+#: core/tmpl/page/testimonials.php:36 parts/catalog/content-elements.php:16
+#: parts/catalog/content.php:16 search.php:33 wt_catalog.php:31
+#: wt_portfolio.php:26
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: archive-wt_testimonial.php:79 wt_testimonial.php:31
+msgid "Write a review"
+msgstr ""
+
+#: core/classes/wt_breadcrumbs.php:34
+msgctxt "Text of breadcrumbs link"
+msgid "Home"
+msgstr ""
+
+#: core/classes/wt_breadcrumbs.php:61
+#, php-format
+msgctxt "Search breadcrumb"
+msgid "Search: %s"
+msgstr ""
+
+#: core/classes/wt_breadcrumbs.php:70
+#, php-format
+msgctxt "Tag breadcrumb"
+msgid "Tag: %s"
+msgstr ""
+
+#: core/classes/wt_catalog.php:62 core/classes/wt_portfolio.php:52
+msgctxt "General name for taxonomy"
+msgid "Sections"
+msgstr ""
+
+#: core/classes/wt_catalog.php:63 core/classes/wt_portfolio.php:53
+msgctxt "Single name for taxonomy"
+msgid "Section"
+msgstr ""
+
+#: core/classes/wt_catalog.php:64 core/classes/wt_portfolio.php:54
+msgctxt "Name of menu"
+msgid "Sections"
+msgstr ""
+
+#: core/classes/wt_catalog.php:65 core/classes/wt_portfolio.php:55
+msgctxt "Text for searching taxonomy"
+msgid "Search Sections"
+msgstr ""
+
+#: core/classes/wt_catalog.php:66 core/classes/wt_catalog.php:121
+#: core/classes/wt_portfolio.php:56 core/classes/wt_portfolio.php:111
+msgctxt "All items of taxonomy"
+msgid "All Sections"
+msgstr ""
+
+#: core/classes/wt_catalog.php:67 core/classes/wt_portfolio.php:57
+msgctxt "Title for page of editing taxonomy item"
+msgid "Edit Section"
+msgstr ""
+
+#: core/classes/wt_catalog.php:68 core/classes/wt_portfolio.php:58
+msgctxt "Text for updating taxonomy item"
+msgid "Update Section"
+msgstr ""
+
+#: core/classes/wt_catalog.php:69 core/classes/wt_portfolio.php:59
+msgctxt "Text of new taxonomy item"
+msgid "Add New Section"
+msgstr ""
+
+#: core/classes/wt_catalog.php:70 core/classes/wt_portfolio.php:60
+msgctxt "Text for viewing taxonomy item"
+msgid "View Section"
+msgstr ""
+
+#: core/classes/wt_catalog.php:71 core/classes/wt_portfolio.php:61
+msgctxt "Text for creating taxonomy item"
+msgid "New Section"
+msgstr ""
+
+#: core/classes/wt_catalog.php:73 core/classes/wt_portfolio.php:63
+msgctxt "Text of deleting or creating taxonomy item"
+msgid "Add or remove sections"
+msgstr ""
+
+#: core/classes/wt_catalog.php:75 core/classes/wt_portfolio.php:65
+msgctxt "Text for most used taxonomy items"
+msgid "Choose from most used sections"
+msgstr ""
+
+#: core/classes/wt_catalog.php:76 core/classes/wt_gallery.php:80
+#: core/classes/wt_portfolio.php:66
+msgctxt "Text for not founding taxonomy items"
+msgid "Not found"
+msgstr ""
+
+#: core/classes/wt_catalog.php:89
+msgctxt "General name for post type"
+msgid "Elements"
+msgstr ""
+
+#: core/classes/wt_catalog.php:90
+msgctxt "Single name for post type"
+msgid "Element"
+msgstr ""
+
+#: core/classes/wt_catalog.php:91 core/classes/wt_portfolio.php:81
+msgctxt "Text for button add a case"
+msgid "Add New"
+msgstr ""
+
+#: core/classes/wt_catalog.php:92
+msgctxt "Title for page of adding post"
+msgid "Add New Element"
+msgstr ""
+
+#: core/classes/wt_catalog.php:93
+msgctxt "Title for page of editing post"
+msgid "Edit Element"
+msgstr ""
+
+#: core/classes/wt_catalog.php:94
+msgctxt "Text of new post"
+msgid "New Element"
+msgstr ""
+
+#: core/classes/wt_catalog.php:95
+msgctxt "Text for viewing post"
+msgid "View Element"
+msgstr ""
+
+#: core/classes/wt_catalog.php:96
+msgctxt "Text for searching post"
+msgid "Search Elements"
+msgstr ""
+
+#: core/classes/wt_catalog.php:97
+msgctxt "Text if no elements"
+msgid "No Elements yet"
+msgstr ""
+
+#: core/classes/wt_catalog.php:98
+msgctxt "Text if no photos in trash"
+msgid "No Elements in trash"
+msgstr ""
+
+#: core/classes/wt_catalog.php:99
+msgctxt "Name of menu"
+msgid "Elements"
+msgstr ""
+
+#: core/classes/wt_catalog.php:100
+msgctxt "Name of menu"
+msgid "Catalog"
+msgstr ""
+
+#: core/classes/wt_catalog.php:105
+msgctxt "Description of post type"
+msgid "Elements for creating elements page"
+msgstr ""
+
+#: core/classes/wt_catalog.php:347
+msgctxt "Title of settings page"
+msgid "Catalog settings"
+msgstr ""
+
+#: core/classes/wt_catalog.php:348 core/classes/wt_gallery.php:390
+#: core/classes/wt_portfolio.php:338 core/classes/wt_testimonials.php:438
+msgctxt "Name of submenu page"
+msgid "Settings"
+msgstr ""
+
+#: core/classes/wt_catalog.php:358 core/classes/wt_gallery.php:478
+#: core/classes/wt_portfolio.php:348 core/classes/wt_testimonials.php:448
+msgctxt "Title for meta box"
+msgid "Main settings"
+msgstr ""
+
+#: core/classes/wt_catalog.php:391 core/classes/wt_gallery.php:510
+msgctxt "Label for field"
+msgid "Select display type"
+msgstr ""
+
+#: core/classes/wt_catalog.php:393
+msgctxt "Label for field"
+msgid "Catalog page description"
+msgstr ""
+
+#: core/classes/wt_catalog.php:443
+msgctxt "Name of admin bar menu"
+msgid "Edit Catalog Settings"
+msgstr ""
+
+#: core/classes/wt_catalog.php:451
+msgctxt "Name of admin bar menu"
+msgid "View Catalog Page"
+msgstr ""
+
+#: core/classes/wt_components.php:40
+msgctxt "Additional text for social links"
+msgid "We are in social networks:"
+msgstr ""
+
+#: core/classes/wt_components.php:96
+msgctxt "Text for share buttons"
+msgid "Share in social networks"
+msgstr ""
+
+#: core/classes/wt_fields.php:105 core/classes/wt_fields.php:147
+msgctxt "Title for meta box"
+msgid "Custom fields"
+msgstr ""
+
+#: core/classes/wt_fields.php:433
+msgctxt "User error"
+msgid ""
+"Current post type is not set. Please, set current post type by "
+"set_post_type( \"post_type\" ) method by using action "
+"\"wt_fields_generate_before\"."
+msgstr ""
+
+#: core/classes/wt_fields.php:440
+msgctxt "User error"
+msgid ""
+"Custom fields had generated already. You must call methods by using action "
+"\"wt_fields_generate_before\"."
+msgstr ""
+
+#: core/classes/wt_fields.php:447
+msgctxt "User error"
+msgid ""
+"Page hook is not set. Global massive $_GET must contain indexes \"post_type"
+"\" and \"page\"."
+msgstr ""
+
+#: core/classes/wt_gallery.php:66
+msgctxt "General name for taxonomy"
+msgid "Albums"
+msgstr ""
+
+#: core/classes/wt_gallery.php:67
+msgctxt "Single name for taxonomy"
+msgid "Album"
+msgstr ""
+
+#: core/classes/wt_gallery.php:68
+msgctxt "Name of menu"
+msgid "Albums"
+msgstr ""
+
+#: core/classes/wt_gallery.php:69
+msgctxt "Text for searching taxonomy"
+msgid "Search Albums"
+msgstr ""
+
+#: core/classes/wt_gallery.php:70 core/classes/wt_gallery.php:130
+msgctxt "All items of taxonomy"
+msgid "All Albums"
+msgstr ""
+
+#: core/classes/wt_gallery.php:71
+msgctxt "Title for page of editing taxonomy item"
+msgid "Edit Album"
+msgstr ""
+
+#: core/classes/wt_gallery.php:72
+msgctxt "Text for updating taxonomy item"
+msgid "Update Album"
+msgstr ""
+
+#: core/classes/wt_gallery.php:73
+msgctxt "Text of new taxonomy item"
+msgid "Add New Album"
+msgstr ""
+
+#: core/classes/wt_gallery.php:74
+msgctxt "Text for viewing taxonomy item"
+msgid "View Album"
+msgstr ""
+
+#: core/classes/wt_gallery.php:75
+msgctxt "Text for creating taxonomy item"
+msgid "New Album"
+msgstr ""
+
+#: core/classes/wt_gallery.php:77
+msgctxt "Text of deleting or creating taxonomy item"
+msgid "Add or remove albums"
+msgstr ""
+
+#: core/classes/wt_gallery.php:79
+msgctxt "Text for most used taxonomy items"
+msgid "Choose from most used albums"
+msgstr ""
+
+#: core/classes/wt_gallery.php:95
+msgctxt "General name for post type"
+msgid "Photos"
+msgstr ""
+
+#: core/classes/wt_gallery.php:96
+msgctxt "Single name for post type"
+msgid "Photo"
+msgstr ""
+
+#: core/classes/wt_gallery.php:97
+msgctxt "Text for button add a photo"
+msgid "Add New"
+msgstr ""
+
+#: core/classes/wt_gallery.php:98
+msgctxt "Title for page of adding post"
+msgid "Add New Photo"
+msgstr ""
+
+#: core/classes/wt_gallery.php:99
+msgctxt "Title for page of editing post"
+msgid "Edit Photo"
+msgstr ""
+
+#: core/classes/wt_gallery.php:100
+msgctxt "Text of new post"
+msgid "New Photo"
+msgstr ""
+
+#: core/classes/wt_gallery.php:101
+msgctxt "Text for viewing post"
+msgid "View Photo"
+msgstr ""
+
+#: core/classes/wt_gallery.php:102
+msgctxt "Text for searching post"
+msgid "Search Photos"
+msgstr ""
+
+#: core/classes/wt_gallery.php:103
+msgctxt "Text if no photos"
+msgid "No Photos yet"
+msgstr ""
+
+#: core/classes/wt_gallery.php:104
+msgctxt "Text if no photos in trash"
+msgid "No Photos in trash"
+msgstr ""
+
+#: core/classes/wt_gallery.php:105
+msgctxt "Name of menu"
+msgid "Photos"
+msgstr ""
+
+#: core/classes/wt_gallery.php:106
+msgctxt "Name of menu"
+msgid "Gallery"
+msgstr ""
+
+#: core/classes/wt_gallery.php:111
+msgctxt "Description of post type"
+msgid "Photos for creating photos page"
+msgstr ""
+
+#: core/classes/wt_gallery.php:156
+msgctxt "Title of table column"
+msgid "Image"
+msgstr ""
+
+#: core/classes/wt_gallery.php:376
+msgctxt "Title of upload page"
+msgid "Multiple Upload"
+msgstr ""
+
+#: core/classes/wt_gallery.php:377
+msgctxt "Name of submenu page"
+msgid "Multiple Upload"
+msgstr ""
+
+#: core/classes/wt_gallery.php:383
+msgctxt "Title of photos grid page"
+msgid "Photos"
+msgstr ""
+
+#: core/classes/wt_gallery.php:384
+msgctxt "Name of submenu page"
+msgid "Grid View"
+msgstr ""
+
+#: core/classes/wt_gallery.php:389
+msgctxt "Title of settings page"
+msgid "Gallery settings"
+msgstr ""
+
+#: core/classes/wt_gallery.php:396
+msgctxt "Title for meta box"
+msgid "Multiple Upload"
+msgstr ""
+
+#: core/classes/wt_gallery.php:512
+msgctxt "Label for field"
+msgid "Gallery page description"
+msgstr ""
+
+#: core/classes/wt_gallery.php:562
+msgctxt "Name of admin bar menu"
+msgid "Edit Gallery Settings"
+msgstr ""
+
+#: core/classes/wt_gallery.php:570
+msgctxt "Name of admin bar menu"
+msgid "View Gallery Page"
+msgstr ""
+
+#: core/classes/wt_likes.php:56
+msgctxt "Title of settings page"
+msgid "Likes"
+msgstr ""
+
+#: core/classes/wt_likes.php:56
+msgctxt "Name of options page"
+msgid "Likes"
+msgstr ""
+
+#: core/classes/wt_likes.php:65 core/classes/wt_ratings.php:67
+msgctxt "Title for meta box"
+msgid "Main options"
+msgstr ""
+
+#: core/classes/wt_likes.php:124
+msgctxt "Ajax error message"
+msgid "Wrong form nonce code. Betting like is impossible"
+msgstr ""
+
+#: core/classes/wt_likes.php:132
+msgctxt "Ajax error message"
+msgid "Wrong ID. Betting like is impossible"
+msgstr ""
+
+#: core/classes/wt_likes.php:151
+msgctxt "Ajax success message"
+msgid "Like or unlike successful"
+msgstr ""
+
+#: core/classes/wt_portfolio.php:79
+msgctxt "General name for post type"
+msgid "Cases"
+msgstr ""
+
+#: core/classes/wt_portfolio.php:80
+msgctxt "Single name for post type"
+msgid "Case"
+msgstr ""
+
+#: core/classes/wt_portfolio.php:82
+msgctxt "Title for page of adding post"
+msgid "Add New Case"
+msgstr ""
+
+#: core/classes/wt_portfolio.php:83
+msgctxt "Title for page of editing post"
+msgid "Edit Case"
+msgstr ""
+
+#: core/classes/wt_portfolio.php:84
+msgctxt "Text of new post"
+msgid "New Case"
+msgstr ""
+
+#: core/classes/wt_portfolio.php:85
+msgctxt "Text for viewing post"
+msgid "View Case"
+msgstr ""
+
+#: core/classes/wt_portfolio.php:86
+msgctxt "Text for searching post"
+msgid "Search Cases"
+msgstr ""
+
+#: core/classes/wt_portfolio.php:87
+msgctxt "Text if no cases"
+msgid "No Cases yet"
+msgstr ""
+
+#: core/classes/wt_portfolio.php:88
+msgctxt "Text if no photos in trash"
+msgid "No Cases in trash"
+msgstr ""
+
+#: core/classes/wt_portfolio.php:89
+msgctxt "Name of menu"
+msgid "Cases"
+msgstr ""
+
+#: core/classes/wt_portfolio.php:90
+msgctxt "Name of menu"
+msgid "Portfolio"
+msgstr ""
+
+#: core/classes/wt_portfolio.php:95
+msgctxt "Description of post type"
+msgid "Cases for creating cases page"
+msgstr ""
+
+#: core/classes/wt_portfolio.php:337
+msgctxt "Title of settings page"
+msgid "Portfolio settings"
+msgstr ""
+
+#: core/classes/wt_portfolio.php:380
+msgctxt "Label for field"
+msgid "Portfolio page description"
+msgstr ""
+
+#: core/classes/wt_portfolio.php:425
+msgctxt "Name of admin bar menu"
+msgid "Edit Portfolio Settings"
+msgstr ""
+
+#: core/classes/wt_portfolio.php:433
+msgctxt "Name of admin bar menu"
+msgid "View Portfolio Page"
+msgstr ""
+
+#: core/classes/wt_ratings.php:56
+msgctxt "Title of settings page"
+msgid "Ratings"
+msgstr ""
+
+#: core/classes/wt_ratings.php:57
+msgctxt "Name of options page"
+msgid "Ratings"
+msgstr ""
+
+#: core/classes/wt_ratings.php:121
+msgctxt "Ajax error message"
+msgid "Wrong form nonce code. Rating is impossible"
+msgstr ""
+
+#: core/classes/wt_ratings.php:129
+msgctxt "Ajax error message"
+msgid "Wrong ID. Rating is impossible"
+msgstr ""
+
+#: core/classes/wt_ratings.php:137
+msgctxt "Ajax error message"
+msgid "Wrong star. Rating is impossible"
+msgstr ""
+
+#: core/classes/wt_ratings.php:168
+msgctxt "Ajax success message"
+msgid "Rating successful"
+msgstr ""
+
+#: core/classes/wt_settings.php:40
+msgctxt "Tag <title> for Theme settings page"
+msgid "Theme settings"
+msgstr ""
+
+#: core/classes/wt_settings.php:41
+msgctxt "Text of menu item"
+msgid "Theme settings"
+msgstr ""
+
+#: core/classes/wt_settings.php:72
+msgctxt "Title for meta box"
+msgid "Media"
+msgstr ""
+
+#: core/classes/wt_settings.php:74
+msgctxt "Title for meta box"
+msgid "Information"
+msgstr ""
+
+#: core/classes/wt_settings.php:76
+msgctxt "Title for meta box"
+msgid "Social networks"
+msgstr ""
+
+#: core/classes/wt_settings.php:78
+msgctxt "Title for meta box"
+msgid "Additional settings"
+msgstr ""
+
+#: core/classes/wt_settings.php:80
+msgctxt "Title for meta box"
+msgid "Permalink settings"
+msgstr ""
+
+#: core/classes/wt_settings.php:133
+msgid "Saved successfully"
+msgstr ""
+
+#: core/classes/wt_settings.php:164
+msgctxt "Help text for meta box"
+msgid "Select logos and favicon"
+msgstr ""
+
+#: core/classes/wt_settings.php:168
+msgctxt "Label for field"
+msgid "Header Logo"
+msgstr ""
+
+#: core/classes/wt_settings.php:170
+msgctxt "Label for field"
+msgid "Footer Logo"
+msgstr ""
+
+#: core/classes/wt_settings.php:172
+msgctxt "Label for field"
+msgid "Favicon"
+msgstr ""
+
+#: core/classes/wt_settings.php:180 core/classes/wt_testimonials.php:539
+msgctxt "Help text for meta box"
+msgid "Specify the main information"
+msgstr ""
+
+#: core/classes/wt_settings.php:184
+msgctxt "Label for field"
+msgid "Phone"
+msgstr ""
+
+#: core/classes/wt_settings.php:186
+msgctxt "Label for field"
+msgid "Additional phone"
+msgstr ""
+
+#: core/classes/wt_settings.php:188
+msgctxt "Label for field"
+msgid "E-mail"
+msgstr ""
+
+#: core/classes/wt_settings.php:190
+msgctxt "Label for field"
+msgid "Address"
+msgstr ""
+
+#: core/classes/wt_settings.php:192
+msgctxt "Label for field"
+msgid "Distance"
+msgstr ""
+
+#: core/classes/wt_settings.php:194
+msgctxt "Label for field"
+msgid "Work time"
+msgstr ""
+
+#: core/classes/wt_settings.php:196
+msgctxt "Label for field"
+msgid "Copyright"
+msgstr ""
+
+#: core/classes/wt_settings.php:198
+msgctxt "Label for field"
+msgid "Link to web studio"
+msgstr ""
+
+#: core/classes/wt_settings.php:213
+msgctxt "Help text for meta box"
+msgid ""
+"Specify links to your existing groups / pages in social networks (one link "
+"to each social network)."
+msgstr ""
+
+#: core/classes/wt_settings.php:217
+msgctxt "Label for field"
+msgid "Vkontakte"
+msgstr ""
+
+#: core/classes/wt_settings.php:219
+msgctxt "Label for field"
+msgid "Facebook"
+msgstr ""
+
+#: core/classes/wt_settings.php:221
+msgctxt "Label for field"
+msgid "Instagram"
+msgstr ""
+
+#: core/classes/wt_settings.php:223
+msgctxt "Label for field"
+msgid "Google+"
+msgstr ""
+
+#: core/classes/wt_settings.php:225
+msgctxt "Label for field"
+msgid "Odnoklassniki"
+msgstr ""
+
+#: core/classes/wt_settings.php:227
+msgctxt "Label for field"
+msgid "Twitter"
+msgstr ""
+
+#: core/classes/wt_settings.php:229
+msgctxt "Label for field"
+msgid "LinkedIn"
+msgstr ""
+
+#: core/classes/wt_settings.php:231
+msgctxt "Label for field"
+msgid "Youtube channel"
+msgstr ""
+
+#: core/classes/wt_settings.php:246
+msgctxt "Help text for meta box"
+msgid "If you do not know the meaning of these settings, do not change it."
+msgstr ""
+
+#: core/classes/wt_settings.php:251
+msgctxt "Label for field"
+msgid "Map code with the address (Google maps, Yandex maps, etc.)"
+msgstr ""
+
+#: core/classes/wt_settings.php:253
+msgctxt "Label for field"
+msgid "Counter Code"
+msgstr ""
+
+#: core/classes/wt_settings.php:255
+msgctxt "Label for field"
+msgid "Fancybox"
+msgstr ""
+
+#: core/classes/wt_settings.php:257
+msgctxt "Label for field"
+msgid "Owl Carousel"
+msgstr ""
+
+#: core/classes/wt_settings.php:259
+msgctxt "Label for field"
+msgid "The Modal"
+msgstr ""
+
+#: core/classes/wt_settings.php:261
+msgctxt "Label for field"
+msgid "ScrollTo"
+msgstr ""
+
+#: core/classes/wt_settings.php:274
+msgctxt "Help text for meta box"
+msgid "Permalink settings for theme taxonomies and post types"
+msgstr ""
+
+#: core/classes/wt_settings.php:277
+msgctxt "Label for field"
+msgid "Portfolio slug"
+msgstr ""
+
+#: core/classes/wt_settings.php:279
+msgctxt "Label for field"
+msgid "Catalog slug"
+msgstr ""
+
+#: core/classes/wt_settings.php:281
+msgctxt "Label for field"
+msgid "Gallery slug"
+msgstr ""
+
+#: core/classes/wt_setup.php:69
+msgid "Header Menu"
+msgstr ""
+
+#: core/classes/wt_setup.php:69
+msgid "Footer Menu"
+msgstr ""
+
+#: core/classes/wt_setup.php:75
+msgctxt "Name of sidebar"
+msgid "Standard Sidebar"
+msgstr ""
+
+#: core/classes/wt_setup.php:111
+#: core/tmpl/metaboxes/wt_settings/info/email.php:25
+#: core/tmpl/metaboxes/wt_settings/info/phone.php:25
+#: core/tmpl/metaboxes/wt_settings/info/phone_add.php:25
+msgctxt "Label of link"
+msgid "same tab"
+msgstr ""
+
+#: core/classes/wt_setup.php:112
+#: core/tmpl/metaboxes/wt_settings/info/email.php:24
+#: core/tmpl/metaboxes/wt_settings/info/phone.php:24
+#: core/tmpl/metaboxes/wt_settings/info/phone_add.php:24
+msgctxt "Label of link"
+msgid "new tab"
+msgstr ""
+
+#: core/classes/wt_setup.php:113
+#: core/tmpl/metaboxes/wt_settings/info/email.php:22
+#: core/tmpl/metaboxes/wt_settings/info/phone.php:22
+#: core/tmpl/metaboxes/wt_settings/info/phone_add.php:22
+msgctxt "Label of link"
+msgid "Link opens in"
+msgstr ""
+
+#: core/classes/wt_templates.php:23
+msgctxt "Template name in theme"
+msgid "Testimonials (embed)"
+msgstr ""
+
+#: core/classes/wt_templates.php:24
+msgctxt "Template name in theme"
+msgid "Gallery (embed)"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:78 core/classes/wt_testimonials.php:244
+msgctxt "General name for post type"
+msgid "Testimonials"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:79
+msgctxt "Single name for post type"
+msgid "Testimonial"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:80
+msgctxt "Text for button add a testimonial"
+msgid "Add New"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:81
+msgctxt "Title for page of adding post"
+msgid "Add New Testimonial"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:82
+msgctxt "Title for page of editing post"
+msgid "Edit Testimonial"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:83
+msgctxt "Text of new post"
+msgid "New Testimonial"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:84
+msgctxt "Text for viewing post"
+msgid "View Testimonial"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:85
+msgctxt "Text for searching post"
+msgid "Search Testimonials"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:86
+msgctxt "Text if no testimonials"
+msgid "No Testimonials yet"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:87
+msgctxt "Text if no testimonials in trash"
+msgid "No Testimonials in trash"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:88
+msgctxt "Name of menu"
+msgid "Testimonials"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:93
+msgctxt "Description of post type"
+msgid "Testimonials for creating testimonials page"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:104
+msgctxt "Label for status"
+msgid "Unapprove"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:106 core/classes/wt_testimonials.php:108
+#: core/classes/wt_testimonials.php:211
+msgctxt "Status of testimonial"
+msgid "Unapproved"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:107 core/classes/wt_testimonials.php:114
+#: core/classes/wt_testimonials.php:121
+#, php-format
+msgid " <span class=\"count\">(%s)</span>"
+msgid_plural " <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/classes/wt_testimonials.php:111
+msgctxt "Label for status"
+msgid "Approve"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:113 core/classes/wt_testimonials.php:115
+#: core/classes/wt_testimonials.php:214
+msgctxt "Status of testimonial"
+msgid "Approved"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:118
+msgctxt "Label for status"
+msgid "Reject"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:120 core/classes/wt_testimonials.php:122
+#: core/classes/wt_testimonials.php:217
+msgctxt "Status of testimonial"
+msgid "Rejected"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:132
+msgctxt "Action to change status of testimonial"
+msgid "Reject"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:136
+msgctxt "Action to change status of testimonial"
+msgid "Approve"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:195
+msgctxt "Title of table column"
+msgid "Status"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:196
+msgctxt "Title of table column"
+msgid "Content"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:220
+msgid "Published"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:223
+msgid "Trash"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:268 core/classes/wt_testimonials.php:452
+msgctxt "Title for meta box"
+msgid "Fields"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:327 core/classes/wt_testimonials.php:328
+#: core/classes/wt_testimonials.php:355
+msgctxt "Part of testimonial title"
+msgid "Testimonial"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:437
+msgctxt "Title of settings page"
+msgid "Testimonial settings"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:523
+msgctxt "Name of admin bar menu"
+msgid "Edit Testimonials Settings"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:531
+msgctxt "Name of admin bar menu"
+msgid "View Testimonials Page"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:542
+msgctxt "Label for field"
+msgid "Testimonials page description"
+msgstr ""
+
+#: core/classes/wt_testimonials.php:677
+msgid "Save"
+msgstr ""
+
+#: core/classes/wt_update.php:74
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: core/classes/wt_update.php:80
+msgid "An unknown error occurred"
+msgstr ""
+
+#: core/tmpl/admin/catalog_settings.php:2
+msgctxt "Title on settings page"
+msgid "Catalog Settings"
+msgstr ""
+
+#: core/tmpl/admin/catalog_settings.php:15
+#: core/tmpl/admin/gallery_settings.php:15
+#: core/tmpl/admin/likes_settings.php:15 core/tmpl/admin/multiple_upload.php:15
+#: core/tmpl/admin/portfolio_settings.php:15
+#: core/tmpl/admin/ratings_settings.php:15
+#: core/tmpl/admin/testimonials_settings.php:15
+#: core/tmpl/admin/theme_settings.php:19
+msgid "Editing data"
+msgstr ""
+
+#: core/tmpl/admin/catalog_settings.php:20
+#: core/tmpl/admin/gallery_settings.php:20
+#: core/tmpl/admin/likes_settings.php:20 core/tmpl/admin/multiple_upload.php:20
+#: core/tmpl/admin/portfolio_settings.php:20
+#: core/tmpl/admin/ratings_settings.php:20
+#: core/tmpl/admin/testimonials_settings.php:20
+#: core/tmpl/admin/theme_settings.php:24
+msgid "Save Changes"
+msgstr ""
+
+#: core/tmpl/admin/gallery_grid.php:3
+msgctxt "Title on settings page"
+msgid "Photos"
+msgstr ""
+
+#: core/tmpl/admin/gallery_grid.php:5
+msgctxt "Text for button on gallery grid page"
+msgid "Add New"
+msgstr ""
+
+#: core/tmpl/admin/gallery_grid.php:8
+msgctxt "Title for screen reader"
+msgid "Filter pages list"
+msgstr ""
+
+#: core/tmpl/admin/gallery_grid.php:13
+msgctxt "Text for link on gallery grid page"
+msgid "All"
+msgstr ""
+
+#: core/tmpl/admin/gallery_grid.php:23
+msgctxt "Text for link on gallery grid page"
+msgid "Published"
+msgstr ""
+
+#: core/tmpl/admin/gallery_grid.php:34
+msgctxt "Text for link on gallery grid page"
+msgid "Pending"
+msgstr ""
+
+#: core/tmpl/admin/gallery_grid.php:45
+msgctxt "Text for link on gallery grid page"
+msgid "Trash"
+msgstr ""
+
+#: core/tmpl/admin/gallery_grid.php:62
+msgid "Filter"
+msgstr ""
+
+#: core/tmpl/admin/gallery_grid.php:98
+msgid "Restore"
+msgstr ""
+
+#: core/tmpl/admin/gallery_grid.php:102
+msgid "Delete Permanently"
+msgstr ""
+
+#: core/tmpl/admin/gallery_settings.php:2
+msgctxt "Title on settings page"
+msgid "Gallery Settings"
+msgstr ""
+
+#: core/tmpl/admin/likes_settings.php:2
+msgctxt "Title on settings page"
+msgid "Likes Settings"
+msgstr ""
+
+#: core/tmpl/admin/multiple_upload.php:2
+msgctxt "Title on upload page"
+msgid "Multiple Upload Photos"
+msgstr ""
+
+#: core/tmpl/admin/portfolio_settings.php:2
+msgctxt "Title on settings page"
+msgid "Portfolio Settings"
+msgstr ""
+
+#: core/tmpl/admin/ratings_settings.php:2
+msgctxt "Title on settings page"
+msgid "Ratings Settings"
+msgstr ""
+
+#: core/tmpl/admin/testimonials_settings.php:2
+msgctxt "Title on settings page"
+msgid "Testimonial Settings"
+msgstr ""
+
+#: core/tmpl/admin/testimonials_settings.php:66
+msgctxt "Popup message by deleting field"
+msgid "Are you sure you want to delete this field?"
+msgstr ""
+
+#: core/tmpl/admin/theme_settings.php:2
+msgctxt "Title on page"
+msgid "Theme settings"
+msgstr ""
+
+#: core/tmpl/inc/field.php:3 core/tmpl/metaboxes/wt_fields/fields.php:6
+msgctxt "Title of field"
+msgid "Custom field"
+msgstr ""
+
+#: core/tmpl/inc/field.php:5 core/tmpl/metaboxes/wt_fields/fields.php:8
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:8
+msgctxt "Type of field"
+msgid "Text"
+msgstr ""
+
+#: core/tmpl/inc/field.php:6 core/tmpl/metaboxes/wt_fields/fields.php:9
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:9
+msgctxt "Type of field"
+msgid "Confirm"
+msgstr ""
+
+#: core/tmpl/inc/field.php:7 core/tmpl/metaboxes/wt_fields/fields.php:10
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:10
+msgctxt "Title of field"
+msgid "Image"
+msgstr ""
+
+#: core/tmpl/inc/field.php:8 core/tmpl/metaboxes/wt_fields/fields.php:11
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:11
+msgctxt "Title of field"
+msgid "Images"
+msgstr ""
+
+#: core/tmpl/inc/field.php:9 core/tmpl/metaboxes/wt_fields/fields.php:12
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:12
+msgctxt "Title of field"
+msgid "File"
+msgstr ""
+
+#: core/tmpl/inc/field.php:10 core/tmpl/metaboxes/wt_fields/fields.php:13
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:13
+msgctxt "Title of field"
+msgid "Files"
+msgstr ""
+
+#: core/tmpl/inc/field.php:11 core/tmpl/metaboxes/wt_fields/fields.php:14
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:14
+msgctxt "Title of field"
+msgid "Video"
+msgstr ""
+
+#: core/tmpl/inc/field.php:12 core/tmpl/metaboxes/wt_fields/fields.php:15
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:15
+msgctxt "Title of field"
+msgid "Videos"
+msgstr ""
+
+#: core/tmpl/inc/field.php:13 core/tmpl/metaboxes/wt_fields/fields.php:16
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:16
+msgctxt "Title of field"
+msgid "Rating"
+msgstr ""
+
+#: core/tmpl/inc/field.php:15 core/tmpl/metaboxes/wt_fields/fields.php:19
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:19
+msgctxt "Label for input"
+msgid "Code of field"
+msgstr ""
+
+#: core/tmpl/inc/field.php:17 core/tmpl/metaboxes/wt_fields/fields.php:22
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:22
+msgctxt "Title of field"
+msgid "Required?"
+msgstr ""
+
+#: core/tmpl/inc/field.php:20 core/tmpl/metaboxes/wt_fields/fields.php:27
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:27
+msgctxt "Label for input"
+msgid "Label of field"
+msgstr ""
+
+#: core/tmpl/inc/field.php:23 core/tmpl/metaboxes/wt_fields/fields.php:31
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:31
+msgid "Delete"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_catalog_settings/main/display_type.php:15
+msgctxt "Radio label"
+msgid "Sections list"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_catalog_settings/main/display_type.php:23
+msgctxt "Radio label"
+msgid "Catalog elements"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_catalog_settings/main/display_type.php:31
+msgctxt "Radio label"
+msgid "Combined"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_catalog_settings/main/display_type.php:36
+msgctxt "Description of field"
+msgid ""
+"Page of any section will display a list of child sections or elements list "
+"os section"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_fields/fields.php:1
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:1
+msgctxt "Text for button"
+msgid "Add field"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_fields/fields/file.php:7
+#: core/tmpl/metaboxes/wt_fields/fields/files.php:7
+#: core/tmpl/metaboxes/wt_fields/fields/image.php:7
+#: core/tmpl/metaboxes/wt_fields/fields/images.php:7
+#: core/tmpl/metaboxes/wt_fields/fields/video.php:7
+#: core/tmpl/metaboxes/wt_fields/fields/videos.php:7
+#: core/tmpl/metaboxes/wt_gallery/upload_photos.php:10
+#: core/tmpl/metaboxes/wt_settings/media/favicon.php:2
+#: core/tmpl/metaboxes/wt_settings/media/footer_logo.php:2
+#: core/tmpl/metaboxes/wt_settings/media/header_logo.php:2
+#: core/tmpl/metaboxes/wt_settings/social/fb.php:2
+#: core/tmpl/metaboxes/wt_settings/social/gplus.php:2
+#: core/tmpl/metaboxes/wt_settings/social/instagram.php:2
+#: core/tmpl/metaboxes/wt_settings/social/linkedin.php:2
+#: core/tmpl/metaboxes/wt_settings/social/ok.php:2
+#: core/tmpl/metaboxes/wt_settings/social/twitter.php:2
+#: core/tmpl/metaboxes/wt_settings/social/vk.php:2
+#: core/tmpl/metaboxes/wt_settings/social/youtube.php:2
+#: core/tmpl/metaboxes/wt_testimonials/fields/file.php:7
+#: core/tmpl/metaboxes/wt_testimonials/fields/files.php:7
+#: core/tmpl/metaboxes/wt_testimonials/fields/image.php:7
+#: core/tmpl/metaboxes/wt_testimonials/fields/images.php:7
+#: core/tmpl/metaboxes/wt_testimonials/fields/video.php:7
+#: core/tmpl/metaboxes/wt_testimonials/fields/videos.php:7
+msgid "Upload"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_gallery/upload_photos.php:4
+msgctxt "Label for selecting album"
+msgid "Select album"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_gallery/upload_photos.php:14
+#, php-format
+msgctxt "Text for multiple upload if albums are not yet"
+msgid "At first %sadd album%s"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_gallery/view_switch.php:2
+msgctxt "Label for view switch"
+msgid "Gallery view:"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_gallery/view_switch.php:6
+msgctxt "Label for view switch"
+msgid "List view:"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_gallery/view_switch.php:11
+msgctxt "Label for view switch"
+msgid "Grid view:"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_gallery_settings/main/display_type.php:15
+msgctxt "Radio label"
+msgid "Open photos in the adaptive gallery Fancybox 3"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_gallery_settings/main/display_type.php:23
+msgctxt "Radio label"
+msgid "Open photos on a separate page"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_likes/main.php:11
+msgctxt "Help text for main likes settings"
+msgid "Select for which post types activate the ability to bet like"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_ratings/main.php:11
+msgctxt "Help text for main ratings settings"
+msgid "Select for which post types activate the ability to put stars"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/extra/enable_fancybox.php:3
+msgctxt "Checkbox label"
+msgid "Include Fancybox 3?"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/extra/enable_fancybox.php:5
+msgctxt "Description of library"
+msgid ""
+"The library allows to run modal windows, and also creates adaptive image "
+"galleries."
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/extra/enable_owl_carousel.php:2
+msgctxt "Checkbox label"
+msgid "Include Owl Carousel?"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/extra/enable_owl_carousel.php:4
+msgctxt "Description of library"
+msgid "Library that implements sliders work on the site."
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/extra/enable_scrollto.php:2
+msgctxt "Checkbox label"
+msgid "Include ScrollTo?"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/extra/enable_scrollto.php:4
+msgctxt "Description of library"
+msgid ""
+"Library that creates an anchor function with smooth scrolling on the page."
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/extra/enable_the_modal.php:2
+msgctxt "Checkbox label"
+msgid "Include The Modal?"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/extra/enable_the_modal.php:4
+msgctxt "Description of library"
+msgid "Library that allows to run the modal windows."
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/info/email.php:12
+#: core/tmpl/metaboxes/wt_settings/info/phone.php:12
+#: core/tmpl/metaboxes/wt_settings/info/phone_add.php:12
+msgctxt "Label of link"
+msgid "Title"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/info/email.php:16
+#: core/tmpl/metaboxes/wt_settings/info/phone.php:16
+#: core/tmpl/metaboxes/wt_settings/info/phone_add.php:16
+msgctxt "Label of link"
+msgid "URL"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/info/email.php:20
+#: core/tmpl/metaboxes/wt_settings/info/phone.php:20
+#: core/tmpl/metaboxes/wt_settings/info/phone_add.php:20
+msgctxt "Label of link"
+msgid "Target"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/info/email.php:35
+msgctxt "Label of link"
+msgid "E-mail is not specified"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/info/email.php:37
+#: core/tmpl/metaboxes/wt_settings/info/phone.php:36
+#: core/tmpl/metaboxes/wt_settings/info/phone_add.php:36
+msgctxt "Text for button"
+msgid "Insert link"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/info/phone.php:35
+msgctxt "Label of link"
+msgid "Phone is not specified"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/info/phone_add.php:35
+msgctxt "Label of link"
+msgid "Additional phone is not specified"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/permalink/remove_slug_catalog.php:3
+msgctxt "Checkbox label"
+msgid "Remove slug \"catalog\" from catalog links"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/permalink/remove_slug_gallery.php:3
+msgctxt "Checkbox label"
+msgid "Remove slug \"gallery\" from gallery links"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_settings/permalink/remove_slug_portfolio.php:3
+msgctxt "Checkbox label"
+msgid "Remove slug \"portfolio\" from portfolio links"
+msgstr ""
+
+#: core/tmpl/metaboxes/wt_testimonials/fields.php:6
+msgctxt "Title of field"
+msgid "Testimonials field"
+msgstr ""
+
+#: core/tmpl/wt_components/share_links/fb.php:3
+#: core/tmpl/wt_components/share_links/fb.php:5
+msgctxt "Text of share button"
+msgid "Share on Facebook"
+msgstr ""
+
+#: core/tmpl/wt_components/share_links/gplus.php:3
+#: core/tmpl/wt_components/share_links/gplus.php:5
+msgctxt "Text of share button"
+msgid "Share on Google+"
+msgstr ""
+
+#: core/tmpl/wt_components/share_links/linkedin.php:4
+#: core/tmpl/wt_components/share_links/linkedin.php:6
+msgctxt "Text of share button"
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: core/tmpl/wt_components/share_links/ok.php:5
+#: core/tmpl/wt_components/share_links/ok.php:7
+msgctxt "Text of share button"
+msgid "Share on Odnoklassniki"
+msgstr ""
+
+#: core/tmpl/wt_components/share_links/twitter.php:7
+#: core/tmpl/wt_components/share_links/twitter.php:9
+msgctxt "Text of share button"
+msgid "Share on Twitter"
+msgstr ""
+
+#: core/tmpl/wt_components/share_links/vk.php:3
+#: core/tmpl/wt_components/share_links/vk.php:5
+msgctxt "Text of share button"
+msgid "Share on VKontakte"
+msgstr ""
+
+#: core/tmpl/wt_testimonials/form.php:4 core/tmpl/wt_testimonials/form.php:5
+msgid "Content"
+msgstr ""
+
+#: footer.php:11
+msgid "Back to top"
+msgstr ""
+
+#: footer.php:74 header.php:96 parts/side-menu.php:32
+msgid "Get in touch"
+msgstr ""
+
+#: functions.php:43
+msgctxt "Name of widget"
+msgid "Modal Widget"
+msgstr ""
+
+#: functions.php:44
+msgid "Widgets in this area will be shown on modal window."
+msgstr ""
+
+#: header.php:30
+msgid "Menu"
+msgstr ""
+
+#: parts/catalog/content-sections.php:22
+msgctxt "Text for button"
+msgid "Read more"
+msgstr ""
+
+#: search.php:6
+msgid "Search result for"
+msgstr ""
+
+#: search/main.php:3
+msgctxt "Placeholder on form of search"
+msgid "Site search"
+msgstr ""
+
+#: search/main.php:4
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Walnut"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://walnut.team/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Universal and powerful theme for creating sites on Wordpress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Walnut Team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://walnut.team/"
+msgstr ""

@@ -1,0 +1,189 @@
+body .fancybox-bg {
+  background-color: #000000;
+}
+
+body .fancybox-is-open .fancybox-bg {
+  opacity: 0.3;
+}
+
+body .wt-modal {
+  width: 90%;
+  max-width: 670px;
+  padding: 25px 15px;
+  border-radius: 15px;
+  background-color: $color-font-secondary;
+  font-family: $font-main, $font-stack !important;
+  color: #ffffff;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  @include breakpoint(sm) {
+    padding: 30px 70px;
+  }
+  @include breakpoint(md) {
+    padding: 50px 120px;
+  }
+  & > * {
+    text-align: center;
+  }
+  .wt-privacy {
+    color: #ffffff;
+    margin-top: 5px;
+    a {
+      color: $color-font-yellow;
+    }
+  }
+  .fancybox-close-small:after {
+    top: 8px;
+    right: 8px;
+    color: #ffffff;
+    font-size: 26px;
+  }
+  .fancybox-close-small:hover:after {
+    background-color: $color-font-yellow;
+  }
+}
+
+.wt-modal-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  @include breakpoint(md) {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+
+.wt-modal-description {
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 15px;
+  @include breakpoint(md) {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 20px;
+  }
+}
+
+.wt-modal-form {
+  margin-top: 25px;
+  @include breakpoint(md) {
+    margin-top: 35px;
+  }
+  input:not([type="submit"]), select {
+    width: 100%;
+    height: 55px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    &:focus {
+      border-color: $color-font-yellow;
+    }
+  }
+  select {
+    padding-right: 0 !important;
+  }
+  textarea {
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    width: 100%;
+    height: 200px;
+    resize: none;
+    padding: 20px 25px;
+    margin-bottom: 15px;
+  }
+  input[type="submit"] {
+    margin-top: 10px;
+  }
+}
+
+.wt-modal-icon {
+  margin-top: 30px;
+  img {
+    max-width: 95px;
+    display: inline-block;
+  }
+}
+
+.wt-privacy {
+  font-size: 14px;
+  margin-top: 5px;
+  line-height: 21px;
+  color: #828282;
+  a {
+    display: inline-block;
+    color: $color-font-secondary;
+    text-decoration: underline;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+body .wt-modal-city-change {
+  background-color: #ffffff;
+  padding: 0;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  .wt-modal-title {
+    background-color: $color-font-secondary;
+    border-radius: 14px;
+    padding: 15px 40px;
+    font-size: 21px;
+    line-height: 29px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    @include breakpoint(md) {
+      padding: 28px 40px;
+      font-size: 30px;
+      line-height: 38px;
+    }
+  }
+  .wt-modal-cities {
+    padding: 20px 20px 5px;
+    @include breakpoint(md) {
+      padding: 30px 30px 5px;
+    }
+    a {
+      font-size: 18px;
+      color: $color-font-main;
+      font-weight: 500;
+      line-height: 1.25;
+      border-bottom: 2px dotted;
+    }
+    a:hover {
+      color: $color-font-yellow;
+      border-color: $color-font-yellow;
+    }
+    .wt-modal-city-current-name {
+      color: $color-font-yellow;
+    }
+  }
+  .wt-modal-col {
+    margin-bottom: 20px;
+    @include breakpoint(md) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+body .wt-modal-city {
+  text-align: center;
+  .wt-modal-city-current-name {
+    color: $color-font-yellow;
+  }
+  .wt-modal-city-current {
+    margin-top: 30px;
+  }
+  .city-change-open {
+    font-size: 18px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1.25;
+    border-bottom: 2px dotted;
+    &:hover {
+      color: $color-font-yellow;
+      border-color: $color-font-yellow;
+    }
+  }
+}

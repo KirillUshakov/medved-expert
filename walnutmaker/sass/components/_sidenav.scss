@@ -1,0 +1,124 @@
+.wt-sidenav-lock {
+	overflow: hidden;
+	height: 100%;
+}
+
+.wt-sidenav-overlay {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	opacity: 0;
+	@include background-opacity(#232323, 0.5);
+	transition: opacity 0.3s, width 0s 0.3s, height 0s 0.3s;
+	cursor: pointer;
+	&.active {
+		opacity: 1;
+		width: 100%;
+		height: 100%;
+		transition: opacity 0.3s;
+	}
+}
+
+.wt-sidenav {
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	max-width: 275px;
+	border-radius: 0 20px 20px 0;
+	height: 100%;
+	overflow: auto;
+	padding: 25px 20px;
+	background-color: $color-font-secondary;
+	transition: transform 0.3s;
+	visibility: hidden;
+	&-left {
+		left: 0;
+		transform: translateX(-100%);
+	}
+	&-right {
+		right: 0;
+		transform: translateX(100%);
+	}
+	&-left.active,
+	&-right.active {
+		visibility: visible;
+		transform: translateX(0);
+	}
+	.admin-bar & {
+		padding-top: 76px;
+		@include breakpoint(783px, 0) {
+			padding-top: 62px;
+		}
+	}
+}
+
+.wt-sidenav-icon {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 25px;
+	right: 20px;
+	cursor: pointer;
+	.admin-bar & {
+		top: 71px;
+		@include breakpoint(783px, 0) {
+			top: 57px;
+		}
+	}
+	a {
+		display: block;
+	}
+}
+
+.wt-sidenav-brand {
+	text-align: center;
+}
+
+.wt-sidenav-logo {
+	display: block;
+	margin-right: 50px;
+	text-align: left;
+	img {
+		max-width: 110px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
+.wt-sidenav-title {
+	display: block;
+	margin-top: 5px;
+	color: $color-font-main;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.wt-sidenav-navigation, .wt-sidenav-policy {
+	margin: 35px 0;
+	li+li {
+		margin-top: 15px;
+	}
+	a {
+		display: block;
+		color: #ffffff;
+		font-weight: 500;
+		font-size: 18px;
+		&:hover {
+			color: $color-font-yellow;
+		}
+	}
+	.current_page_item a,
+	.current-menu-item a {
+		color: $color-font-yellow;
+	}
+	.sub-menu {
+		display: none;
+	}
+}

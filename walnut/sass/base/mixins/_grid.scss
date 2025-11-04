@@ -1,0 +1,41 @@
+// Container
+
+@mixin grid-container($space: $grid-space-width) {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: ceil(($space / 2));
+  padding-right: floor(($space / 2));
+  @include clearfix;
+}
+
+// Row and columns
+
+@mixin create-grid($class) {
+  $i: 1;
+  @for $i from 1 through $grid-columns {
+    .col-#{$class}-#{$i} {
+      width: percentage(($i / $grid-columns));
+    }
+  }
+}
+
+@mixin grid-list($space: $grid-space-width) {
+  margin-left: ceil(($space / -2));
+  margin-right: floor(($space / -2));
+  letter-spacing : -.36em;
+  @include clearfix;
+}
+
+@mixin grid-col($space: $grid-space-width) {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: ceil(($space / 2));
+  padding-right: floor(($space / 2));
+  margin-bottom: $grid-space-width;
+  letter-spacing: normal;
+
+  /* эмуляция inline-block для IE6-7*/
+  //display : inline;
+  //zoom : 1;
+}

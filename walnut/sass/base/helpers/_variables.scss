@@ -1,0 +1,19 @@
+// Media queries breakpoints
+
+$screen-small: 768px;
+$screen-medium: 992px;
+$screen-large: 1200px;
+
+$screen-mobile-max: ($screen-small - 1);
+$screen-small-max: ($screen-medium - 1);
+$screen-medium-max: ($screen-large - 1);
+
+// Container widths
+
+$container-medium: 970px;
+$container-large: 1170px;
+
+// Grid options
+
+$grid-columns: 12;
+$grid-space-width: 30px;

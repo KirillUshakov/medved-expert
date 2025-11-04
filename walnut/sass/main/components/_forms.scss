@@ -1,0 +1,56 @@
+.wt-group {
+  margin-top: 15px;
+  text-align: left;
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  textarea {
+    font-size: 14px;
+    width: 100%;
+    resize: none;
+    height: 150px;
+    padding: 10px;
+  }
+  input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=tel] {
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    height: 35px;
+  }
+}
+
+.wt-group-rating {
+  @include clearfix;
+  .wt-form-item {
+    position: relative;
+    float: left;
+    width: 20px;
+    height: 20px;
+    &:before {
+      position: absolute;
+      content: '';
+      cursor: pointer;
+      width: 20px;
+      height: 20px;
+      background-image: url(../img/svg/star-default.svg);
+      top: 0;
+      left: 0;
+    }
+    &-checked:before {
+      background-image: url(../img/svg/star-checked.svg);
+    }
+    input {
+      opacity: 0;
+      cursor: pointer;
+    }
+  }
+}
+
+.wt-group-rating .wt-form-item+.wt-form-item {
+  margin-left: 4px;
+}

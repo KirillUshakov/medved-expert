@@ -1,0 +1,1 @@
+<textarea name="weblink"><?php echo isset( $data ) ? stripslashes( $data ) : ''; ?></textarea>

@@ -1,0 +1,165 @@
+.wt-covid {
+	padding-top: 40px;
+}
+
+.wt-covid-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	padding: 0 18px 30px;
+}
+
+.wt-covid-content::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background: #f6fcff;
+	border-radius: 25px;
+}
+
+.wt-covid-content__img {
+	margin-bottom: 22px;
+	width: 230px;
+	height: auto;
+}
+
+.wt-covid-content__title {
+	margin-bottom: 10px;
+	color: #1C4E9C;
+}
+
+@media screen and (min-width: 768px) {
+	.wt-covid {
+		padding-top: 65px;
+	}
+
+	.wt-covid-content {
+		padding: 0 90px 40px 55px;
+	}
+
+	.wt-covid-content::after {
+		transform: skewX(-8deg);
+		left: 20px;
+		right: 20px;
+	}
+
+	.wt-covid-content__img {
+		margin-bottom: 22px;
+		width: 290px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.wt-covid {
+		padding-top: 50px;
+	}
+
+	.wt-covid-content {
+		flex-direction: row;
+		padding: 0 100px;
+	}
+
+	.wt-covid-content::after {
+		transform: skewX(-8deg);
+		left: 20px;
+		right: 20px;
+		top: 10px;
+		bottom: 10px;
+	}
+
+	.wt-covid-content__title {
+		margin-bottom: 15px;
+		text-align: left;
+	}
+
+	.wt-covid-content__img {
+		margin-bottom: 0;
+		margin-right: 65px;
+		width: 330px;
+	}
+
+	.wt-covid-content__text {
+		max-width: 570px;
+	}
+
+	.wt-covid-description {
+		font-size: 18px;
+	}
+}
+
+/* owl-slider */
+/* .wt-triggers-wrap */
+.wt-triggers-wrap .owl-dot {
+  background-color: transparent;
+  border:0;
+}
+
+.wt-slider-testimonials-wrap .owl-next,
+.wt-slider-testimonials-wrap .owl-prev,
+.wt-triggers-wrap .owl-next,
+.wt-triggers-wrap .owl-prev {
+  border: 0;
+  background-color: transparent;
+}
+
+.owl-dot span,
+.owl-dot button {
+  background: #ffffff;
+  display: block;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #dfdfdf;
+  margin: 0 7.5px;
+
+  transition: border-color .3s;
+}
+
+.owl-dot:hover button,
+.owl-dot:hover span,
+.owl-dot button:focus {
+  border-color: #729fe7;
+}
+
+.owl-dot.active span,
+.owl-dot.active button {
+  border-color: #1c4e9c;
+}
+
+.owl-dot.active {
+  pointer-events: none;
+}
+
+/* Accordion fix */
+.wt-custom-content .acc .accordion .a-container .a-btn {
+  border: 0;
+  text-align: left;
+
+  transition: color .3s;
+}
+
+.wt-custom-content .acc .accordion .a-container .a-btn:focus {
+  color: #173975 !important;
+}
+
+.wt-custom-content .acc .accordion .a-container .a-btn:hover {
+  color: #1c4e9c !important;
+}
+
+.wt-single-thumbnail--full {
+  height: auto;
+  width: 100%;
+}
+
+.wt-single-thumbnail--full img {
+  position: static;
+  width: 100%;
+  height: auto;
+  transform: unset;
+}

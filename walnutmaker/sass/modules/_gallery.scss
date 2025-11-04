@@ -1,0 +1,47 @@
+.wt-gallery-list {
+	padding: $page-padding-xs 0 ($page-padding-xs - $grid-space-bottom);
+	@include breakpoint(md) {
+		padding: $page-padding-md 0 ($page-padding-md - $grid-space-bottom);
+	}
+}
+
+.wt-gallery-single {
+	padding: $page-padding-xs 0;
+	@include breakpoint(md) {
+		padding: $page-padding-md 0;
+	}
+}
+
+.wt-gallery-description {
+	margin-bottom: 30px;
+}
+
+// Страница альбомов
+
+.wt-gallery-albums-col {
+	text-align: center;
+	@include breakpoint(sm) {
+		text-align: left;
+	}
+	img {
+		display: inline-block;
+	}
+}
+
+.wt-gallery-albums-title {
+	margin-top: 8px;
+	font-weight: 600;
+	color: $color-font-main;
+	transition: all 0.2s ease;
+}
+
+.wt-gallery-albums-col a:hover .wt-gallery-albums-title {
+	color: $color-font-green;
+}
+
+.wt-gallery-albums-thumb {
+	@include breakpoint(mobile) {
+		margin-left: -$container-padding;
+		margin-right: -$container-padding;
+	}
+}

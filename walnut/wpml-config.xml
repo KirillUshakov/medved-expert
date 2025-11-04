@@ -1,0 +1,36 @@
+<wpml-config>
+    <admin-texts>
+        <key name="wt_settings">
+            <key name="phone">
+                <key name="title"/>
+                <key name="href"/>
+                <key name="target">{0 or 1}</key>
+            </key>
+            <key name="phone_add">
+                <key name="title"/>
+                <key name="href"/>
+                <key name="target">{0 or 1}</key>
+            </key>
+            <key name="email">
+                <key name="title"/>
+                <key name="href"/>
+                <key name="target">{0 or 1}</key>
+            </key>
+            <key name="address"/>
+            <key name="distance"/>
+            <key name="worktime"/>
+            <key name="copyright"/>
+            <key name="weblink"/>
+            <key name="vk"/>
+            <key name="fb"/>
+            <key name="ok"/>
+            <key name="gplus"/>
+            <key name="twitter"/>
+            <key name="linkedin"/>
+            <key name="instagram"/>
+            <key name="youtube"/>
+            <key name="code_map"/>
+            <key name="code_counter"/>
+        </key>
+    </admin-texts>
+</wpml-config>

@@ -1,0 +1,65 @@
+/**
+ * Theme Name: Walnut child theme
+ * Author: Walnut Team
+ * Author URI: http://walnut.team/walnut-theme
+ * Description: Child of universal and powerful theme for creating sites on Wordpress
+ * Template: walnut
+ */
+
+@import 'mixins/implode';
+@import 'mixins/clearfix';
+@import 'mixins/grid';
+@import 'mixins/breakpoints';
+@import 'mixins/responsive';
+@import 'mixins/background-opacity';
+@import 'mixins/placeholder';
+@import 'mixins/buttons';
+@import 'mixins/box-shadow';
+
+@import 'base/fonts';
+@import 'base/variables';
+@import 'base/normalize';
+@import 'base/theme';
+
+@import 'components/typography';
+@import 'components/buttons';
+@import 'components/breadcrumbs';
+@import 'components/sidenav';
+@import 'components/modals';
+@import 'components/pagination';
+@import 'components/sticky';
+@import 'components/dropdown';
+@import 'components/whatsapp';
+
+@import 'blocks/triggers';
+@import 'blocks/sections';
+@import 'blocks/items';
+@import 'blocks/slider-banners';
+@import 'blocks/map';
+@import 'blocks/action';
+@import 'blocks/content';
+@import 'blocks/slider-testimonials';
+@import 'blocks/form';
+
+@import 'sidebar-blocks/menu';
+@import 'sidebar-blocks/socials';
+@import 'sidebar-blocks/action';
+@import 'sidebar-blocks/form';
+@import 'sidebar-blocks/testimonial';
+@import 'sidebar-blocks/triggers';
+
+@import 'layouts/header';
+@import 'layouts/sidebar';
+@import 'layouts/footer';
+@import 'layouts/404';
+
+@import 'modules/gallery';
+@import 'modules/testimonials';
+
+@import 'pages/page';
+@import 'pages/category';
+@import 'pages/single';
+@import 'pages/vacancies';
+@import 'pages/contacts';
+
+@import 'custom';

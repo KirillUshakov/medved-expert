@@ -1,0 +1,1 @@
+<textarea name="copyright"><?php echo isset( $data ) ? stripslashes( $data ) : ''; ?></textarea>

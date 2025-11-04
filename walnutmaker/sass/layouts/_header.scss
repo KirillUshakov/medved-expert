@@ -1,0 +1,357 @@
+.wt-header-top {
+	background-color: $header-top-background;
+}
+
+// Бургер-меню
+
+.wt-header-number {
+	display: table-cell;
+	vertical-align: middle;
+	width: 65%;
+	text-align: right;
+	.wt-header-navigation & a {
+		display: inline-block;
+		padding: 0;
+		font-size: 21px;
+		color: $color-font-yellow;
+		font-weight: 600;
+	}
+}
+
+.wt-burger {
+	display: table-cell;
+	vertical-align: middle;
+	width: 35%;
+	height: 55px;
+	cursor: pointer;
+}
+
+.wt-burger-icon,
+.wt-burger-text {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.wt-burger-icon {
+	img {
+		width: 20px;
+		height: 20px;
+	}
+	padding: 5px;
+}
+
+.wt-burger-text {
+	padding-top: 2px;
+	padding-left: 5px;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+// Основная шапка
+
+.wt-header-main {
+	padding: 35px 0 30px;
+	background-color: #a1dbf0;
+	background-image: url(img/header.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: 50% 50%;
+	@include breakpoint(lg) {
+		background-size: cover;
+	}
+}
+
+.wt-header-wrap {
+	display: table;
+	width: 100%;
+}
+
+// Логотип и название сайта
+
+.wt-header-brand {
+	text-align: center;
+	@include breakpoint(md) {
+		display: table-cell;
+		vertical-align: middle;
+		width: 25%;
+		padding: 0 15px;
+		text-align: left;
+	}
+}
+
+.wt-header-logo {
+	display: block;
+	img {
+		display: inline-block;
+		vertical-align: middle;
+		max-width: 230px;
+		@include breakpoint(sm) {
+			max-width: 270px;
+		}
+	}
+}
+
+.wt-header-name {
+	margin-top: 5px;
+}
+
+.wt-header-name-title {
+	font-size: 16px;
+	line-height: 14px;
+	font-weight: 600;
+	@include breakpoint(sm) {
+		font-size: 18px;
+		line-height: 21px;
+	}
+	a {
+		color: $color-font-main;
+	}
+}
+
+.wt-header-name-description {
+	line-height: 1.15;
+	font-size: 14px;
+	color: #868686;
+	@include breakpoint(md) {
+		font-size: 15px;
+	}
+}
+
+.wt-header-brand-wrap {
+	text-align: center;
+	@include breakpoint(lg) {
+		max-width: 270px;
+	}
+}
+
+.wt-header-action {
+	margin-top: 25px;
+	text-align: center;
+	@include breakpoint(sm) {
+		margin-top: 35px;
+	}
+	@include breakpoint(md) {
+		display: table-cell;
+		vertical-align: middle;
+		padding: 0 15px;
+		width: 45%;
+		margin: 0;
+	}
+	@include breakpoint(lg) {
+		width: 50%;
+	}
+	a {
+		position: relative;
+		display: inline-block;
+		color: inherit;
+		font-size: 16px;
+		padding: 18px 25px 18px 60px;
+		border: 3px solid $color-font-main;
+		border-radius: 10px;
+		transform: skewX(-10deg);
+		@include breakpoint(sm) {
+			font-size: 18px;
+		}
+		@include breakpoint(lg) {
+			font-size: 21px;
+			padding: 18px 35px 18px 70px;
+		}
+	}
+	svg, a span {
+		transform: skewX(10deg);
+	}
+	svg {
+		position: absolute;
+		top: 50%;
+		margin-top: -18px;
+		left: 20px;
+		width: 25px;
+		height: 36px;
+		@include breakpoint(sm) {
+			left: 25px;
+		}
+	}
+	path {
+		transition: 0.3s ease all;
+	}
+	a span {
+		position: relative;
+		top: 1px;
+		display: inline-block;
+		font-style: italic;
+		font-weight: 600;
+		line-height: 28px;
+	}
+	a:hover {
+		border-color: $color-font-secondary;
+		color: $color-font-secondary;
+		path {
+			fill: $color-font-secondary;
+		}
+	}
+	p {
+		display: block;
+		line-height: 1.25;
+		margin: 20px auto 0;
+		font-size: 16px;
+		font-weight: 500;
+		@include breakpoint(sm) {
+			margin-top: 25px;
+		}
+		@include breakpoint(md) {
+			margin-top: 20px;
+		}
+		@include breakpoint(lg) {
+			font-size: 18px;
+		}
+	}
+}
+
+.wt-header-action-tip {
+	span {
+		display: inline-block;
+		margin-left: 2px;
+		color: $color-font-secondary;
+		font-size: 21px;
+		font-weight: 600;
+	}
+}
+
+// Контактные данные
+.wt-header-contacts {
+	@include breakpoint(md) {
+		display: table-cell;
+		vertical-align: middle;
+		width: 30%;
+		padding: 0 15px;
+		text-align: right;
+	}
+	@include breakpoint(lg) {
+		width: 25%;
+	}
+}
+
+.wt-header-contacts {
+	text-align: center;
+}
+
+.wt-header-contacts-phone {
+	font-weight: 600;
+	a {
+		position: relative;
+		font-size: 22px;
+		padding-left: 32px;
+		color: $color-font-main;
+		@include breakpoint(lg) {
+			font-size: 26px;
+		}
+	}
+	a:hover {
+		color: $color-font-secondary;
+	}
+	a:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 50%;
+		margin-top: -12.5px;
+		width: 25px;
+		height: 25px;
+		background-image: url(img/svg/phone.svg);
+		background-size: cover;
+	}
+}
+
+.wt-header-contacts-email {
+	margin-top: 5px;
+	a {
+		position: relative;
+		padding-left: 35px;
+		color: $color-font-main;
+		font-size: 16px;
+		font-weight: 500;
+		@include breakpoint(lg) {
+			font-size: 18px;
+		}
+	}
+	a:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 50%;
+		margin-top: -12.5px;
+		width: 25px;
+		height: 25px;
+		background-image: url(img/svg/mail.svg);
+		background-size: cover;
+	}
+	a:hover {
+		color: $color-font-secondary;
+	}
+}
+
+.wt-header-contacts-callback {
+	@include breakpoint(sm) {
+		margin-top: 20px;
+	}
+}
+
+.wt-header-cities {
+	margin-top: 20px;
+	position: relative;
+	
+	& > span {
+		display: block;
+		font-size: 15px;
+		color: #868686;
+	}
+	
+	& > a {
+		font-size: 18px;
+		color: inherit;
+		font-weight: 500;
+		line-height: 1.25;
+		border-bottom: 2px dotted;
+	}
+	
+	& > a:hover {
+		color: $color-font-secondary;
+		border-color: $color-font-secondary;
+	}
+}
+
+// Навигационное меню
+
+.wt-header-navigation {
+	background: rgb(10, 70, 161);
+	background: -moz-linear-gradient(top, rgba(10, 70, 161, 1) 0%, rgba(29, 77, 150, 1) 100%);
+	background: -webkit-linear-gradient(top, rgba(10, 70, 161, 1) 0%, rgba(29, 77, 150, 1) 100%);
+	background: linear-gradient(to bottom, rgba(10, 70, 161, 1) 0%, rgba(29, 77, 150, 1) 100%);
+	ul {
+		display: table;
+		width: 100%;
+		min-height: 50px;
+	}
+	li {
+		display: table-cell;
+		vertical-align: middle;
+		min-width: 100px;
+	}
+	a {
+		display: block;
+		text-align: center;
+		color: #ffffff;
+		padding: 20px 0;
+		font-size: 18px;
+		font-weight: 500;
+	}
+	a:hover {
+		background-color: #1f57aa;
+		color: #ffffff;
+	}
+	.current_page_item a,
+	.current-menu-item a {
+		background-color: #1f57aa;
+		color: $color-font-yellow;
+	}
+}

@@ -1,0 +1,27 @@
+@mixin responsive-display($prefix, $parent) {
+	.#{$prefix}-#{$parent} {
+		display: block !important;
+	}
+}
+
+@mixin responsive-hide($prefix, $parent) {
+	.#{$prefix}-#{$parent} {
+		display: none !important;
+	}
+}
+
+$responsive-types: (
+		'xs',
+		'sm',
+		'md',
+		'lg',
+		'touch',
+		'desktop',
+);
+
+@mixin responsive-default {
+	$result: '.visible-' + implode( $responsive-types, ', .visible-' );
+	#{$result} {
+		display: none !important;
+	}
+}

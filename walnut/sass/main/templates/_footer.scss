@@ -1,0 +1,195 @@
+.site-footer {
+  a {
+    text-decoration: none;
+  }
+}
+
+.site-footer-main {
+  padding: 20px 0;
+}
+
+// Site navigation
+
+.site-footer-navigation {
+  background-color: #f0f0f0;
+
+  ul {
+    float: left;
+    height: 55px;
+    line-height: 55px;
+  }
+  li {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  li+li {
+    margin-left: 30px;
+  }
+}
+
+// Scroll to top
+
+.scroll-up {
+  float: right;
+  height: 55px;
+  line-height: 55px;
+}
+
+// Footer brand
+
+.footer-brand {
+  text-align: center;
+  @include small-screen {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    padding: 0 15px;
+    text-align: left;
+  }
+  @include medium-screen {
+    width: 40%;
+  }
+}
+
+.footer-logo {
+  @include mobile-only {
+    display: block;
+    margin-bottom: 10px;
+  }
+  @include small-screen {
+    display: inline-block;
+  }
+  img {
+    display: inline-block;
+    max-height: 165px;
+    @include small-screen {
+      max-height: 75px;
+    }
+  }
+}
+
+.footer-name {
+  &-title {
+    font-size: 24px;
+    @include small-screen {
+      font-size: 18px;
+    }
+  }
+  &-description {
+    margin-top: 5px;
+    @include small-screen {
+      font-size: 16px;
+    }
+  }
+}
+
+.footer-brand-full {
+  .footer-logo, .footer-name {
+    @include small-screen {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+  .footer-logo {
+    @include small-screen {
+      width: 85px; // Width используется для ограничения ширины логотипа в svg. Без него будет неправильное поведение размеров img.
+    }
+  }
+  .footer-name {
+    @include small-screen {
+      padding-left: 20px;
+    }
+  }
+}
+
+// Footer address
+
+.footer-address {
+  @include medium-screen {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    padding: 0 15px;
+    width: 35%;
+  }
+  @include large-screen {
+  }
+  &-destination {
+    font-size: 16px;
+  }
+  &-distance {
+    color: #949494;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 5px;
+  }
+  &-worktime {
+    margin-top: 15px;
+  }
+}
+
+// Footer contacts
+
+.footer-contacts {
+  @include small-screen {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 15px;
+    width: 50%;
+    text-align: right;
+  }
+  @include medium-screen {
+    width: 25%;
+  }
+  &-phone {
+    a {
+      font-size: 18px;
+    }
+    span {
+      color: #85be07;
+      font-weight: 500;
+    }
+  }
+  &-email {
+    margin-top: 5px;
+  }
+}
+
+// Footer callback
+
+.footer-callback {
+  margin-top: 15px;
+}
+
+.site-footer-bottom {
+  background-color: #272727;
+  padding: 20px 0;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.footer-copyright {
+  @include medium-screen {
+    width: 50%;
+    float: left;
+    text-align: left;
+  }
+}
+
+.footer-weblink {
+  margin-top: 15px;
+  @include medium-screen {
+    margin-top: 0;
+    width: 50%;
+    float: left;
+    text-align: right;
+  }
+  a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}

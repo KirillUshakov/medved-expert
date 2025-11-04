@@ -1,0 +1,18 @@
+.wt-map {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 300px;
+	margin-top: 20px;
+	@include breakpoint(lg) {
+		height: 450px;
+	};
+}
+
+.wt-map iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}

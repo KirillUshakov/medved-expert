@@ -1,0 +1,19 @@
+$social-margin-top: 10px;
+
+.wt-sidebar-socials-list {
+	margin-top: -$social-margin-top;
+	li {
+		display: inline-block;
+		vertical-align: middle;
+		width: 35px;
+		height: 35px;
+		margin-top: $social-margin-top;
+		margin-right: 10px;
+	}
+	img {
+		opacity: 0.85;
+	}
+	a:hover img {
+		opacity: 1;
+	}
+}

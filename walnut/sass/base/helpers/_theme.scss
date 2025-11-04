@@ -1,0 +1,75 @@
+html {
+	 box-sizing: border-box;
+ }
+
+*, :after, :before {
+	box-sizing: inherit;
+}
+
+
+input, textarea {
+	outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+
+ul {
+	margin: 0;
+	padding: 0;
+
+  li {
+    list-style: none;
+  }
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+input[type=submit] {
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+	border: none;
+	background-color: transparent;
+}
+
+// Remove some code from Fotorama modal
+
+.fotorama__html > li {
+	display: none!important
+}
+
+// List elements align
+
+.list {
+	&-left {
+		text-align: left;
+	}
+	&-center {
+		text-align: center;
+	}
+	&-right {
+		text-align: right;
+	}
+}
+
+.site-row-table {
+	display: table;
+	width: 100%;
+	& > div:first-child {
+		padding-left: 0;
+	}
+	& > div:last-child {
+		padding-right: 0;
+	}
+}

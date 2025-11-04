@@ -1,0 +1,25 @@
+.wt-page-breadcrumbs {
+	margin-bottom: 20px;
+	li {
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 500;
+	}
+	a {
+		color: #b4b4b4;
+		font-weight: 400;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	li:last-child {
+		a {
+			color: $color-font-secondary;
+		}
+	}
+	li+li:before {
+		content: '>';
+		color: #b4b4b4;
+		margin: 0 20px;
+	}
+}

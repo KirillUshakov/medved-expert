@@ -1,0 +1,33 @@
+@import "base/helpers/variables";
+
+// Mixins
+
+@import "base/mixins/clearfix";
+@import "base/mixins/breakpoints";
+@import "base/mixins/responsive";
+@import "base/mixins/grid";
+@import "base/mixins/opacity";
+
+// Template styles
+
+@import "main/helpers/theme";
+
+// Theme components
+
+@import "main/components/breadcrumbs";
+@import "main/components/buttons";
+@import "main/components/modals";
+@import "main/components/side-menu";
+@import "main/components/wt-fields";
+@import "main/components/forms";
+
+// Theme modules
+
+@import "main/modules/gallery";
+@import "main/modules/testimonial";
+
+// Theme templates
+
+@import "main/templates/header";
+@import "main/templates/footer";
+@import "main/templates/sidebar";

@@ -1,0 +1,31 @@
+%btn {
+  display: inline-block;
+  padding: 12px 35px;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn {
+  @extend %btn;
+  background-color: #f0f0f0;
+}
+
+.btn-main {
+  @extend %btn;
+  background-color: #85be07;
+  color: #ffffff;
+  & > input[type=submit]  {
+    color: #ffffff;
+  }
+}
+
+.btn:hover {
+  background-color: darken(#85be07, 2%);
+}
+
+.btn:active {
+  background-color: lighten(#85be07, 2%);
+}

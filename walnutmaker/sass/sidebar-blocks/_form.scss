@@ -1,0 +1,44 @@
+.wt-sidebar-block.wt-sidebar-form {
+	padding: 25px 25px 10px;
+}
+
+.wt-sidebar-form-fields {
+	text-align: center;
+	input,
+	textarea {
+		width: 100%;
+	}
+	input:not([type='submit']),
+	textarea {
+		margin-bottom: 10px;
+		border: 1px solid #d2d2d2;
+		font-size: 14px;
+	}
+	input:not([type='submit']) {
+		height: 35px;
+		padding: 0 15px;
+	}
+	textarea {
+		padding: 15px;
+		height: 150px;
+		resize: none;
+	}
+	input[type=submit] {
+		display: inline-block;
+		margin-bottom: 0;
+		text-align: center;
+		vertical-align: middle;
+		touch-action: manipulation;
+		cursor: pointer;
+		white-space: nowrap;
+		user-select: none;
+		padding: 8px 0;
+		font-size: 16px;
+		line-height: 1.42857;
+		border-radius: 5px;
+		background: #5bc551;
+		color: #ffffff;
+		border: 1px solid #5bc551;
+		font-weight: 500;
+	}
+}

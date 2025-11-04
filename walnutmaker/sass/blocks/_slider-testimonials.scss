@@ -1,0 +1,144 @@
+.wt-slider-testimonials {
+	padding: 40px 0;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: 50% 50%;
+	@include breakpoint(md) {
+		padding: 60px 0;
+	}
+	@include breakpoint(lg) {
+		background-size: cover;
+	}
+	.wt-action {
+		margin-top: 60px;
+	}
+}
+
+.wt-slider-testimonials-title {
+	text-align: center;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 600;
+	@include breakpoint(sm) {
+		font-size: 30px;
+		line-height: 38px;
+	}
+	@include breakpoint(md) {
+		font-size: 38px;
+		line-height: 46px;
+	}
+}
+
+.wt-slider-testimonials-wrap {
+	margin-top: 45px;
+	.owl-dots {
+		width: 100%;
+		margin-top: 40px;
+		text-align: center;
+	}
+	.owl-dot {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.owl-dot span {
+		background: #ffffff;
+		display: block;
+		border-radius: 50%;
+		width: 15px;
+		height: 15px;
+		border: 3px solid #dfdfdf;
+		margin: 0 7.5px;
+	}
+	.owl-dot.active span {
+		border-color: $color-font-secondary;
+	}
+	@include breakpoint(md) {
+		margin-top: 60px;
+	}
+	.owl-prev, .owl-next {
+		position: absolute;
+		top: 50%;
+		margin-top: -24.5px;
+		width: 49px;
+		height: 49px;
+		transition: all .3s ease;
+		filter: grayscale(100%);
+		opacity: 0.3;
+		&:hover {
+			filter: none;
+			opacity: 1;
+		}
+		&.disabled {
+			opacity: 0.1;
+			cursor: default!important;
+		}
+		&.disabled:hover {
+			filter: grayscale(100%);
+			opacity: 0.1;
+		}
+	}
+	.owl-prev {
+		background-image: url(img/svg/arrow-prev.svg);
+		background-repeat: no-repeat;
+		left: 40px;
+		@include breakpoint(lg) {
+			left: 70px;
+		}
+	}
+	.owl-next {
+		background-image: url(img/svg/arrow-next.svg);
+		background-repeat: no-repeat;
+		right: 40px;
+		@include breakpoint(lg) {
+			right: 70px;
+		}
+	}
+}
+
+.wt-slider-testimonials-wrap {
+	background-color: #ffffff;
+	padding: 35px 20px 50px;
+	border-radius: 15px;
+	@include breakpoint(sm) {
+		padding: 35px 75px 50px;
+	}
+	@include breakpoint(md) {
+		padding: 35px 150px 50px;
+	}
+	@include breakpoint(lg) {
+		padding: 50px 200px;
+	}
+}
+
+.wt-slider-testimonials-avatar {
+	text-align: center;
+	img {
+		display: inline-block!important;
+		width: auto!important;
+		height: 80px;
+		border-radius: 50%;
+		@include breakpoint(sm) {
+			height: 110px;
+		}
+	}
+}
+
+.wt-slider-testimonials-name {
+	font-size: 18px;
+	text-align: center;
+	font-weight: 600;
+	margin-top: 5px;
+	@include breakpoint(sm) {
+		font-size: 21px;
+	}
+	@include breakpoint(lg) {
+		font-size: 24px;
+	}
+}
+
+.wt-slider-testimonials-message {
+	margin-top: 10px;
+	@include breakpoint(lg) {
+		font-size: 18px;
+	}
+}

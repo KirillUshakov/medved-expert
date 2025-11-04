@@ -1,0 +1,42 @@
+// Create container styles with clearfix
+
+.container {
+	@include grid-container;
+
+  @include medium-screen {
+    width: $container-medium;
+  }
+  @include large-screen {
+    width: $container-large;
+  }
+}
+
+// Create list styles
+
+[class*=-list] {
+  @include grid-list;
+}
+
+// Create default columns styles
+
+[class*=-col] {
+  @include grid-col;
+}
+
+// Create grid styles
+
+@media (max-width: $screen-mobile-max) {
+	@include create-grid(mobile);
+}
+
+@media (min-width: $screen-small) {
+	@include create-grid(small);
+}
+
+@media (min-width: $screen-medium) {
+	@include create-grid(medium);
+}
+
+@media (min-width: $screen-large) {
+	@include create-grid(large);
+}

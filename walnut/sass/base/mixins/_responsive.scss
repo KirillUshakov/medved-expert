@@ -1,0 +1,15 @@
+// Visible element
+
+@mixin responsive-visible($parent) {
+  #{$parent} {
+    display: block !important;
+  }
+}
+
+// Hide element
+
+@mixin responsive-hidden($parent) {
+  #{$parent} {
+    display: none !important;
+  }
+}

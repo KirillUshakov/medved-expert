@@ -1,0 +1,102 @@
+.wt-items {
+  padding: 40px 0;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: 50% 50%;
+  @include breakpoint(md) {
+    padding: 60px 0;
+  }
+  @include breakpoint(lg) {
+    background-size: cover;
+  }
+  .wt-action {
+    margin-top: 60px;
+  }
+}
+
+.wt-items-title {
+  text-align: center;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  @include breakpoint(sm) {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  @include breakpoint(md) {
+    font-size: 38px;
+    line-height: 46px;
+  }
+}
+
+.wt-items-description {
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 10px;
+  span {
+    font-weight: 600;
+  }
+}
+
+.wt-items-row {
+  margin-top: 45px;
+  margin-bottom: -30px;
+  @include breakpoint(md) {
+    margin-top: 60px;
+  }
+}
+
+.wt-items-item {
+  display: block;
+  border-radius: 5px;
+  overflow: hidden;
+  color: inherit;
+  background-color: transparent;
+  &:hover {
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.35);
+  }
+}
+
+.wt-items-thumbnail {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  &:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $color-font-yellow;
+    transition: 0.3s ease all;
+    opacity: 0;
+  }
+  .wt-items-item:hover &:before {
+    opacity: 0.3;
+  }
+}
+
+.wt-items-content {
+  padding: 20px 20px 30px;
+}
+
+.wt-items-content-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  transition: 0.3s ease all;
+  .wt-items-item:hover & {
+    color: $color-font-secondary;
+  }
+}
+
+.wt-items-content-excerpt {
+  margin-top: 10px;
+}
+
+.wt-items-404 {
+  background-color: #f6f7f8;
+}

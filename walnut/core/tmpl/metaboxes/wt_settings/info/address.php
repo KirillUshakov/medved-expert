@@ -1,0 +1,1 @@
+<input type="text" name="address" value="<?php echo isset( $data ) ? htmlspecialchars( $data ) : ''; ?>"/>

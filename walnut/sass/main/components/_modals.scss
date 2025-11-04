@@ -1,0 +1,81 @@
+.themodal-overlay {
+  @include background-opacity(#000000, 0.5);
+}
+
+.modal {
+  display: none;
+  width: 90%;
+  position: relative;
+  background: #ffffff;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  @include small-screen {
+    width: 540px;
+  }
+}
+
+.modal-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.modal .widget {
+  .modal-widget-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .textwidget > p {
+    margin-bottom: 20px;
+  }
+  .wpcf7-form-control-wrap {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+  }
+  span.wpcf7-not-valid-tip {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .wpcf7-form input[type=text],
+  .wpcf7-form input[type=email],
+  .wpcf7-form input[type=url],
+  .wpcf7-form input[type=tel] {
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    height: 35px;
+  }
+  .wpcf7-form input[type=number],
+  .wpcf7-form input[type=date] {
+    font-size: 14px;
+    width: 50%;
+    padding: 5px 0 5px 10px;
+    height: 35px;
+  }
+  .wpcf7-form select {
+    width: 50%;
+    height: 35px;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  .wpcf7-form input[type=checkbox],
+  .wpcf7-form input[type=radio] {
+    position: relative;
+    top: 2px;
+  }
+  span.wpcf7-list-item.first {
+    margin-left: 0;
+  }
+  .wpcf7-form textarea {
+    font-size: 14px;
+    width: 100%;
+    resize: none;
+    height: 150px;
+    padding: 10px;
+  }
+  .wpcf7-form br {
+    display: none;
+  }
+}

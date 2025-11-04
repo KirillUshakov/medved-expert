@@ -1,0 +1,59 @@
+.wt-custom-content {
+  padding: 40px 0;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: 50% 50%;
+  overflow: hidden;
+  @include breakpoint(md) {
+    padding: 60px 0;
+  }
+  @include breakpoint(lg) {
+    background-size: cover;
+  }
+  .wt-action {
+    margin-top: 60px;
+  }
+}
+
+.wt-custom-content-wrap {
+  @include breakpoint(lg) {
+    display: block;
+    max-width: 960px;
+    margin: {
+      left: auto;
+      right: auto;
+    }
+  }
+}
+
+.wt-custom-content-title {
+  text-align: center;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  @include breakpoint(sm) {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  @include breakpoint(md) {
+    font-size: 38px;
+    line-height: 46px;
+  }
+}
+
+.wt-custom-content-description {
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 20px;
+  span {
+    font-weight: 600;
+  }
+}
+
+.wt-custom-content-head {
+  margin-bottom: 45px;
+  @include breakpoint(md) {
+    margin-bottom: 60px;
+  }
+}

@@ -1,0 +1,1 @@
+<input type="text" name="distance" value="<?php echo isset( $data ) ? htmlspecialchars( $data ) : ''; ?>"/>

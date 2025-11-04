@@ -1,0 +1,35 @@
+.wt-sections {
+	margin-bottom: 40px;
+}
+
+.wt-sections-title {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.wt-sections-description {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.wt-sections-item {
+	text-align: center;
+	a {
+		color: $color-font-main;
+	}
+}
+
+.wt-sections-icon {
+	min-height: 110px;
+	margin-bottom: 20px;
+	img {
+		display: inline-block;
+		max-height: 105px;
+	}
+}
+
+.wt-sections-name {
+	font-weight: 600;
+	margin-bottom: 10px;
+}

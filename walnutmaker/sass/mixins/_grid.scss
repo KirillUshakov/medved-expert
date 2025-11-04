@@ -1,0 +1,36 @@
+@mixin create-grid($class) {
+	$i: 1;
+	@for $i from 1 through $grid-columns {
+		.col-#{$class}-#{$i} {
+			width: percentage(($i / $grid-columns));
+		}
+	}
+}
+
+@mixin grid-row($space: $grid-space-width) {
+	margin:  {
+		left: ceil(($space / -2));
+		right: floor(($space / -2));
+	}
+	letter-spacing: -0.36em;
+	@include clearfix;
+}
+
+@mixin grid-col($space: $grid-space-width) {
+	width: 100%;
+	min-height: 1px;
+	display: inline-block;
+	vertical-align: top;
+	padding:  {
+		left: ceil(($space / 2));
+		right: floor(($space / 2));
+	}
+	margin-bottom: $grid-space-bottom;
+	letter-spacing: normal;
+}
+
+@mixin grid-align($grid_position) {
+	.content-#{$grid_position} {
+		text-align: $grid_position;
+	}
+}

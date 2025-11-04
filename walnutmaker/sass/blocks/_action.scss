@@ -1,0 +1,17 @@
+.wt-action {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.wt-action-hint {
+	font-size: 14px;
+	line-height: 21px;
+	font-style: italic;
+	margin-top: 20px;
+	font-weight: 500;
+	@include breakpoint(md) {
+		margin-top: 30px;
+		font-size: 18px;
+		line-height: 26px;
+	}
+}

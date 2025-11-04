@@ -1,0 +1,23 @@
+// Only mobile
+
+@mixin mobile-only {
+  @media (max-width: $screen-mobile-max) { @content; }
+}
+
+// Tablet and up
+
+@mixin small-screen {
+  @media (min-width: $screen-small) { @content; }
+}
+
+// Screen 1024px and up
+
+@mixin medium-screen {
+  @media (min-width: $screen-medium) { @content; }
+}
+
+// Screen 15" notebooks and up
+
+@mixin large-screen {
+  @media (min-width: $screen-large) { @content; }
+}

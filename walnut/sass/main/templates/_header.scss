@@ -1,0 +1,256 @@
+.site-header {
+  a {
+    text-decoration: none;
+  }
+}
+
+.site-header-top {
+  background-color: #f0f0f0;
+}
+
+.site-header-main {
+  padding: 35px 0;
+}
+
+// Burger-menu
+
+.site-menu {
+  display: table;
+  float: left;
+  height: 55px;
+  cursor: pointer;
+  &-icon, &-text {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  &-icon {
+    width: 30px;
+    height: 30px;
+  }
+  &-text {
+    padding-left: 10px;
+  }
+}
+
+// Social icons
+
+.social-links {
+  display: table;
+  float: right;
+  height: 55px;
+  text-align: right;
+  @include mobile-only {
+    display: none;
+  }
+  &-title {
+    display: none;
+    padding-right: 20px;
+    @include medium-screen {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+  &-list {
+    display: table-cell;
+    vertical-align: middle;
+    li {
+      display: inline-block;
+      vertical-align: middle;
+      width: 32px;
+      height: 32px;
+    }
+    li+li {
+      margin-left: 10px;
+    }
+  }
+}
+
+// Site branding
+
+.site-brand {
+  text-align: center;
+  @include small-screen {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    padding: 0 15px;
+    text-align: left;
+  }
+  @include medium-screen {
+    width: 40%;
+  }
+}
+
+.site-logo {
+  @include mobile-only {
+    display: block;
+    margin-bottom: 10px;
+  }
+  @include small-screen {
+    display: inline-block;
+  }
+  img {
+    display: inline-block;
+    max-height: 165px;
+    @include small-screen {
+      max-height: 110px;
+    }
+  }
+}
+
+.site-name {
+  &-title {
+    font-size: 24px;
+  }
+  &-description {
+    margin-top: 5px;
+  }
+}
+
+.site-brand-full {
+  .site-logo, .site-name {
+    @include small-screen {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+  .site-logo {
+    @include small-screen {
+      width: 135px; // Width используется для ограничения ширины логотипа в svg. Без него будет неправильное поведение размеров img.
+    }
+  }
+  .site-name {
+    @include small-screen {
+      padding-left: 20px;
+    }
+  }
+}
+
+// Site contacts
+
+.site-contacts {
+  @include small-screen {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    padding: 0 15px;
+    text-align: right;
+  }
+  @include medium-screen {
+    width: 30%;
+  }
+  &-phone {
+    a {
+      position: relative;
+      font-size: 22px;
+      padding-left: 35px;
+      @include large-screen {
+        font-size: 24px;
+      }
+    }
+    a:before {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 50%;
+      margin-top: -15px;
+      width: 30px;
+      height: 30px;
+      background-image: url(../img/svg/phone.svg);
+      background-size: cover;
+    }
+    span {
+      color: #85be07;
+      font-weight: 500;
+    }
+  }
+  &-email {
+    margin-top: 5px;
+    a {
+      position: relative;
+      padding-left: 30px;
+    }
+    a:before {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 50%;
+      margin-top: -10px;
+      width: 20px;
+      height: 16px;
+      background-image: url(../img/svg/mail.svg);
+      background-size: cover;
+    }
+  }
+}
+
+.site-callback {
+  @include small-screen {
+    margin-top: 20px;
+  }
+}
+
+// Site address
+
+.site-address {
+  @include medium-screen {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    padding: 0 15px;
+    width: 30%;
+  }
+  &-destination {
+    font-size: 16px;
+    position: relative;
+    padding-right: 42px;
+    @include large-screen {
+      font-size: 18px;
+    }
+    &:after {
+      position: absolute;
+      content: '';
+      right: 0;
+      top: 50%;
+      margin-top: -16px;
+      width: 32px;
+      height: 32px;
+      background-image: url(../img/svg/location.svg);
+      background-size: cover;
+    }
+  }
+  &-distance {
+    color: #949494;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 5px;
+  }
+  &-worktime {
+    margin-top: 15px;
+  }
+}
+
+// Site navigation
+
+.site-header-navigation {
+  background-color: #272727;
+  ul {
+    display: table;
+    width: 100%;
+    min-height: 50px;
+  }
+  li {
+    display: table-cell;
+    vertical-align: middle;
+    min-width: 100px;
+  }
+  a {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+  }
+  a:hover {
+    background-color: darken(#272727,2%);
+  }
+}
