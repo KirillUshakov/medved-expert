@@ -11,7 +11,7 @@
     $(function () {
         var domain = 'medved-expert.ru';
 
-        if (!$.cookie('city-selected')) {
+        if (!$.cookie('city-selected') && typeof google !== 'undefined') {
             //Если город ещё не был выбран, находим местоположение и предлагаем перейти на домен города
             var geocoder = new google.maps.Geocoder();
             if ('geolocation' in navigator) {
