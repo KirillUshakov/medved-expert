@@ -1,11 +1,24 @@
 <?php
 
+if (!defined('_S_VERSION')) {
+	// Replace the version number of the theme on each release.
+	define('_S_VERSION', '1.1.7');
+}
+
+function is_localhost() {
+  return in_array($_SERVER['REMOTE_ADDR'], array('127.0.0.1', '::1', '192.168.56.1', 'medved-expert.test'));
+}
+
+function get_assets_version() {
+	return is_localhost() ? time() : _S_VERSION;
+}
+
 	//Применяем jQuery Google API
 	function modify_jquery() {
 		if (!is_admin()) {
 			// закомментируйте следующие две строки для загрузки вашей локальной копии скрипта jQuery
 			wp_deregister_script('jquery');
-			wp_register_script('jquery', '/wp-includes/js/jquery/site-jquery.min.js', false, '2.2.4');
+			wp_register_script('jquery', '/wp-includes/js/jquery/site-jquery.min.js', false, get_assets_version());
 			wp_enqueue_script('jquery');
 		}
 	}

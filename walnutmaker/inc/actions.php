@@ -63,7 +63,7 @@
 		wp_enqueue_script( 'google-maps' );
 
 		wp_register_script( 'maker-custom.js', get_stylesheet_directory_uri() . '/js/custom.js',
-			array( 'maker-base.js', 'google-maps', 'maker-cookie.js' ), '1.1.4', true );
+			array( 'maker-base.js', 'google-maps', 'maker-cookie.js' ), get_assets_version(), true );
 		wp_localize_script( 'maker-custom.js', 'dataCities', array(
 			'cities' => get_cities(),
 			'network_domain' => get_network()->domain,
