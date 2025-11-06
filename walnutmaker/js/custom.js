@@ -23,6 +23,11 @@
                 var lat = position.coords.latitude;
                 var lng = position.coords.longitude;
                 var latlng = new google.maps.LatLng(lat, lng);
+
+                if ($.cookie('js_city_id').length || ($.cookie('redirect_city_id').length)) {
+                    return;
+                }
+
                 geocoder.geocode({'latLng': latlng}, function (results, status) {
                     if (status === google.maps.GeocoderStatus.OK) {
                         if (results && 0 in results && 'formatted_address' in results[0]) {
@@ -149,6 +154,22 @@
 
     });
 
+    function setCityCookie (val) {
+        document.cookie = `js_city_id=${ val }; path=/; max-age=${ 60 * 60 * 24 * 7 }; domain=.${ dataCities.network_domain }`;
+    }
+
+    function getCookie(name) {
+        var matches = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));
+        return matches ? decodeURIComponent(matches[1]) : undefined;
+    }
+
+    $(document).ready(() => {
+        const searchParams = new URLSearchParams(window.location.search);
+        if (searchParams.get('fs') && searchParams.get('fs') == 1) {
+            setCityCookie(getCookie('redirect_city_id'));
+        }
+    });
+
     // Change city
     $('[data-city-change]').on('click', (e, el) => {
         const btn = e.target.closest('[data-city-change]');
@@ -156,7 +177,8 @@
 
         e.preventDefault();
 
-        document.cookie = `city_id=${ cityId }; path=/; max-age=31556926`;
+        // Set cookie for 1 week
+        setCityCookie(cityId);
         window.location.reload();
     })
 })(jQuery);

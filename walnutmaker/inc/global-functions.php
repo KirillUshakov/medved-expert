@@ -1,7 +1,15 @@
 <?php
 
 function get_saved_city_id () {
-  return !empty($_COOKIE['city_id']) ? $_COOKIE['city_id'] : get_main_site_id();
+  $cookie = null;
+
+  if ($_GET['fs'] == 1) {
+    $cookie =  $_COOKIE['redirect_city_id'];
+  } else if (!empty($_COOKIE['js_city_id'])) {
+    $cookie =  $_COOKIE['js_city_id'];
+  }
+
+  return !empty($cookie) ? $cookie : get_main_site_id();
 }
 
 function is_cur_city ($city = []) {

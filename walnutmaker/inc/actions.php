@@ -66,6 +66,7 @@
 			array( 'maker-base.js', 'google-maps', 'maker-cookie.js' ), '1.1.4', true );
 		wp_localize_script( 'maker-custom.js', 'dataCities', array(
 			'cities' => get_cities(),
+			'network_domain' => get_network()->domain,
 			'current' => array( 'name' => get_city_name(), 'url' => site_url() ),
 		) );
 		wp_enqueue_script( 'maker-custom.js' );
@@ -82,9 +83,9 @@ add_action('template_redirect', function() {
 
 	$network = get_network();
 	$request_uri = $_SERVER['REQUEST_URI'];
-	$redirect_url = network_home_url($request_uri);
+	$redirect_url = network_home_url($request_uri . '?fs=1');
 
-	setcookie('city_id', get_current_blog_id(), strtotime("+1 year"), '/', $network->domain);
+	setcookie('redirect_city_id', get_current_blog_id(), strtotime("+1 week"), '/', $network->domain);
 
 	wp_redirect($redirect_url, 301);
 	exit;
