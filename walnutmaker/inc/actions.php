@@ -76,9 +76,18 @@
 	}
 
 add_action('template_redirect', function() {
-	if ( !is_main_site() ) {
-		wp_die( 'Страница не найдена', '404 Not Found', array( 'response' => 404 ) );
+	if (is_main_site()) {
+		return;
 	}
+
+	$network = get_network();
+	$request_uri = $_SERVER['REQUEST_URI'];
+	$redirect_url = network_home_url($request_uri);
+
+	setcookie('city_id', get_current_blog_id(), strtotime("+1 year"), '/', $network->domain);
+
+	wp_redirect($redirect_url, 301);
+	exit;
 });
 
 add_filter('pre_get_document_title', function() {
